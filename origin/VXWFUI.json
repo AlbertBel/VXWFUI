@@ -794,7 +794,7 @@
       "value": "{rem.globalRem} * 3",
       "type": "spacing"
     },
-    "spacer": {
+    "Spacer": {
       "sp0": {
         "value": "{rem.globalRem} * 0",
         "type": "sizing"
