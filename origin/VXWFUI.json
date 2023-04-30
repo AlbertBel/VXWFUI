@@ -1709,6 +1709,99 @@
     "50%": {
       "value": "0.5",
       "type": "opacity"
+    },
+    "OpacityColors": {
+      "colorForeground-10%": {
+        "value": "{SemanticColors.colorForeground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorForeground-24%": {
+        "value": "{SemanticColors.colorForeground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.24",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorForeground-50%": {
+        "value": "{SemanticColors.colorForeground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorOnDefault-50%": {
+        "value": "{SemanticColors.colorOnDefault}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorSecondary-60%": {
+        "value": "{SemanticColors.Seconadary.colorSecondary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.6",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorSecondary-35%": {
+        "value": "{SemanticColors.Seconadary.colorSecondary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.35",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorPrimary-80%": {
+        "value": "{SemanticColors.Primary.colorPrimary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.8",
+              "space": "lch"
+            }
+          }
+        }
+      }
     }
   },
   "theme/light": {
@@ -2933,6 +3026,99 @@
           }
         }
       }
+    },
+    "OpacityColors": {
+      "colorForeground-10%": {
+        "value": "{SemanticColors.colorForeground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorForeground-24%": {
+        "value": "{SemanticColors.colorForeground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.24",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorForeground-50%": {
+        "value": "{SemanticColors.colorForeground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorOnDefault-50%": {
+        "value": "{SemanticColors.colorOnDefault}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorSecondary-60%": {
+        "value": "{SemanticColors.Seconadary.colorSecondary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.6",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorSecondary-35%": {
+        "value": "{SemanticColors.Seconadary.colorSecondary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.35",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorPrimary-80%": {
+        "value": "{SemanticColors.Primary.colorPrimary}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.8",
+              "space": "lch"
+            }
+          }
+        }
+      }
     }
   },
   "screen size/ S-XS - rem: 11 px": {
@@ -3200,9 +3386,6 @@
       "id": "a4d5434203ab2c47014b483fcd434a0446da080f",
       "name": "12pxRem",
       "selectedTokenSets": {
-        "main": "disabled",
-        "theme/dark": "disabled",
-        "theme/light": "disabled",
         "screen size/ S-XS - rem: 11 px": "enabled"
       },
       "$figmaStyleReferences": {}
@@ -3211,9 +3394,6 @@
       "id": "4d38a67cc337c477195e4b057a4b0cefb544537f",
       "name": "17pxRem",
       "selectedTokenSets": {
-        "main": "disabled",
-        "theme/dark": "disabled",
-        "theme/light": "disabled",
         "screen size/ S-XS - rem: 11 px": "enabled"
       },
       "$figmaStyleReferences": {}
