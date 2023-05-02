@@ -3379,6 +3379,12 @@
         "value": "{rem.globalRem}*4",
         "type": "sizing"
       }
+    },
+    "SpacingMultiple": {
+      "4sp1": {
+        "value": "{sp1}*4",
+        "type": "spacing"
+      }
     }
   },
   "$themes": [
