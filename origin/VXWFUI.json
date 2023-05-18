@@ -553,7 +553,7 @@
         "value": "{blue25}",
         "type": "color"
       },
-      "colorSucces": {
+      "colorSuccess": {
         "value": "{green60}",
         "type": "color"
       },
@@ -776,8 +776,99 @@
       }
     },
     "OpacityColors": {
+      "colorSuccess-20%": {
+        "value": "{SemanticColors.colorSuccess}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.2",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorSuccess-10%": {
+        "value": "{SemanticColors.colorSuccess}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorError-20%": {
+        "value": "{SemanticColors.colorError}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.2",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorError-15%": {
+        "value": "{SemanticColors.colorError}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.15",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorWarning-20%": {
+        "value": "{SemanticColors.colorWarning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.2",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorWarning-10%": {
+        "value": "{SemanticColors.colorWarning}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.1",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorBackground-70%": {
+        "value": "{SemanticColors.colorBackground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.7",
+              "space": "lch"
+            }
+          }
+        }
+      },
       "colorForeground-3%": {
-        "value": "{white}",
+        "value": "{SemanticColors.colorForeground}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
@@ -789,14 +880,14 @@
           }
         }
       },
-      "colorBackground-70%": {
-        "value": "{black}",
+      "colorForeground-5%": {
+        "value": "{SemanticColors.colorForeground}",
         "type": "color",
         "$extensions": {
           "studio.tokens": {
             "modify": {
               "type": "alpha",
-              "value": "0.7",
+              "value": "0.05",
               "space": "lch"
             }
           }
@@ -3388,12 +3479,12 @@
       "value": "{rem.globalRem} * 2.1",
       "type": "fontSizes"
     },
-    "H3": {
-      "value": "{rem.globalRem} * 1.7",
-      "type": "fontSizes"
-    },
     "H2": {
       "value": "{rem.globalRem} * 1.9",
+      "type": "fontSizes"
+    },
+    "H3": {
+      "value": "{rem.globalRem} * 1.7",
       "type": "fontSizes"
     },
     "H4": {
@@ -3433,6 +3524,18 @@
         "value": "{rem.globalRem}*4",
         "type": "sizing"
       },
+      "5 rem": {
+        "value": "{rem.globalRem}*5",
+        "type": "sizing"
+      },
+      "17rem": {
+        "value": "{rem.globalRem}*17",
+        "type": "sizing"
+      },
+      "7rem": {
+        "value": "{rem.globalRem}*7",
+        "type": "sizing"
+      },
       "other-sizes": {
         "4point2rem": {
           "value": "{rem.globalRem}*4.2",
@@ -3446,6 +3549,14 @@
           "value": "{rem.globalRem}*2.5",
           "type": "sizing"
         },
+        "1point7rem": {
+          "value": "{rem.globalRem}*1.7",
+          "type": "sizing"
+        },
+        "1point8rem": {
+          "value": "{rem.globalRem}*1.8",
+          "type": "sizing"
+        },
         "5point6rem": {
           "value": "{rem.globalRem}*5.6",
           "type": "sizing"
@@ -3453,12 +3564,24 @@
         "025rem": {
           "value": "{rem.globalRem}*0.25",
           "type": "sizing"
+        },
+        "04rem": {
+          "value": "{rem.globalRem}*0.4",
+          "type": "sizing"
+        },
+        "07rem": {
+          "value": "{rem.globalRem}*0.7",
+          "type": "sizing"
         }
       }
     },
     "multiple-spacing": {
       "4sp1": {
         "value": "{sp1}*4",
+        "type": "spacing"
+      },
+      "08rem": {
+        "value": "{rem.globalRem}*0.8",
         "type": "spacing"
       }
     },
