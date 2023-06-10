@@ -1336,10 +1336,8 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "Global": "enabled",
-        "DarkTheme": "enabled",
-        "Rem: 11px": "source"
-      },
-      "group": "11px"
+        "DarkTheme": "enabled"
+      }
     },
     {
       "id": "1e98a0e47764c55ea5a721fa1b7b2207c22ac0cc",
@@ -1347,8 +1345,7 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "Global": "enabled",
-        "Rem: 11px": "source",
-        "LightTheme": "source"
+        "LightTheme": "enabled"
       }
     }
   ],
