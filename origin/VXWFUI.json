@@ -945,6 +945,19 @@
           }
         }
       },
+      "colorForeground-25%": {
+        "value": "{SemanticColors.colorForeground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.25",
+              "space": "lch"
+            }
+          }
+        }
+      },
       "colorForeground-50%": {
         "value": "{SemanticColors.colorForeground}",
         "type": "color",
@@ -3567,6 +3580,10 @@
         },
         "04rem": {
           "value": "{rem.globalRem}*0.4",
+          "type": "sizing"
+        },
+        "03rem": {
+          "value": "{rem.globalRem}*0.3",
           "type": "sizing"
         },
         "07rem": {
