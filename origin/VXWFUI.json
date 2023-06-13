@@ -1329,6 +1329,7 @@
       "type": "fontSizes"
     }
   },
+  "Nuria": {},
   "$themes": [
     {
       "id": "4a13654793414844d9c0dc1427ee39e50d05bf11",
@@ -1336,7 +1337,8 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "Global": "enabled",
-        "DarkTheme": "enabled"
+        "DarkTheme": "enabled",
+        "Nuria": "disabled"
       }
     },
     {
@@ -1345,7 +1347,8 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "Global": "enabled",
-        "LightTheme": "enabled"
+        "LightTheme": "enabled",
+        "Nuria": "disabled"
       }
     }
   ],
@@ -1354,7 +1357,8 @@
       "Global",
       "DarkTheme",
       "LightTheme",
-      "Rem: 11px"
+      "Rem: 11px",
+      "Nuria"
     ]
   }
 }
