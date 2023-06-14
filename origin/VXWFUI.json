@@ -3078,6 +3078,10 @@
         "value": "{rem.globalRem}*5",
         "type": "sizing"
       },
+      "6 rem": {
+        "value": "{rem.globalRem}*6",
+        "type": "sizing"
+      },
       "17rem": {
         "value": "{rem.globalRem}*17",
         "type": "sizing"
@@ -3152,6 +3156,10 @@
       },
       "03rem": {
         "value": "{rem.globalRem}*0.3",
+        "type": "spacing"
+      },
+      "4rem": {
+        "value": "{rem.globalRem}*4",
         "type": "spacing"
       }
     },
