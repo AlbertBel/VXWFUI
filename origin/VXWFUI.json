@@ -1,484 +1,4 @@
 {
-  "main": {
-    "black": {
-      "value": "#000000",
-      "type": "color"
-    },
-    "white": {
-      "value": "#fff",
-      "type": "color"
-    },
-    "red25": {
-      "value": "#F56969",
-      "type": "color"
-    },
-    "amber20": {
-      "value": "#F8C45C",
-      "type": "color"
-    },
-    "green60": {
-      "value": "#12BF2F",
-      "type": "color"
-    },
-    "green65": {
-      "value": "#0DB229",
-      "type": "color"
-    },
-    "blue25": {
-      "value": "#59C4F5",
-      "type": "color"
-    },
-    "blue30": {
-      "value": "#41BAF1",
-      "type": "color"
-    },
-    "blue50": {
-      "value": "#0096D6",
-      "type": "color"
-    },
-    "gray40": {
-      "value": "#999999",
-      "type": "color"
-    },
-    "SemanticColors": {
-      "colorOnDefault": {
-        "value": "{black}",
-        "type": "color"
-      },
-      "colorOnPressed": {
-        "value": "{white}",
-        "type": "color"
-      },
-      "colorAdvisory": {
-        "value": "{blue25}",
-        "type": "color"
-      },
-      "colorSucces": {
-        "value": "{green60}",
-        "type": "color"
-      },
-      "colorError": {
-        "value": "{red25}",
-        "type": "color"
-      },
-      "colorWarning": {
-        "value": "{amber20}",
-        "type": "color"
-      },
-      "colorSelected": {
-        "value": "{blue50}",
-        "type": "color"
-      },
-      "Seconadary": {
-        "colorSecondary": {
-          "value": "{gray40}",
-          "type": "color"
-        },
-        "colorSecondaryHovered": {
-          "value": "{SemanticColors.Seconadary.colorSecondary}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.1",
-                "space": "lch",
-                "color": "{SemanticColors.colorOnDefault}"
-              }
-            }
-          }
-        },
-        "colorSecondaryPressed": {
-          "value": "{SemanticColors.Seconadary.colorSecondary}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.2",
-                "space": "lch",
-                "color": "{SemanticColors.colorOnDefault}"
-              }
-            }
-          }
-        },
-        "colorSecondaryActivated": {
-          "value": "{SemanticColors.Seconadary.colorSecondary}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.3",
-                "space": "lch",
-                "color": "{SemanticColors.colorOnDefault}"
-              }
-            }
-          }
-        }
-      },
-      "Primary": {
-        "colorPrimary": {
-          "value": "{blue30}",
-          "type": "color"
-        },
-        "colorPrimaryHovered": {
-          "value": "{SemanticColors.Primary.colorPrimary}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.1",
-                "space": "lch",
-                "color": "{SemanticColors.colorOnDefault}"
-              }
-            }
-          }
-        },
-        "colorPrimaryPressed": {
-          "value": "{SemanticColors.Primary.colorPrimary}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.2",
-                "space": "lch",
-                "color": "{SemanticColors.colorOnDefault}"
-              }
-            }
-          }
-        },
-        "colorPrimaryActivated": {
-          "value": "{SemanticColors.Primary.colorPrimary}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.3",
-                "space": "lch",
-                "color": "{SemanticColors.colorOnPressed}"
-              }
-            }
-          }
-        }
-      },
-      "Action": {
-        "colorAction": {
-          "value": "{green65}",
-          "type": "color",
-          "Hovered": {
-            "value": "#0A8F21",
-            "type": "color"
-          }
-        },
-        "colorActionHovered": {
-          "value": "{SemanticColors.Action.colorAction}",
-          "type": "color",
-          "Hovered": {
-            "value": "#0A8F21",
-            "type": "color"
-          },
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.1",
-                "space": "hsl",
-                "color": "{SemanticColors.colorOnDefault}"
-              }
-            }
-          }
-        },
-        "colorActionPressed": {
-          "value": "{SemanticColors.Action.colorAction}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.2",
-                "space": "hsl",
-                "color": "{SemanticColors.colorOnDefault}"
-              }
-            }
-          }
-        }
-      },
-      "Destructive": {
-        "colorDestructive": {
-          "value": "{red25}",
-          "type": "color"
-        },
-        "colorDestructiveHovered": {
-          "value": "{SemanticColors.Destructive.colorDestructive}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.1",
-                "space": "lch",
-                "color": "{SemanticColors.colorOnDefault}"
-              }
-            }
-          }
-        },
-        "colorDestructivePressed": {
-          "value": "{SemanticColors.Destructive.colorDestructive}",
-          "type": "color",
-          "$extensions": {
-            "studio.tokens": {
-              "modify": {
-                "type": "mix",
-                "value": "0.2",
-                "space": "lch",
-                "color": "{SemanticColors.colorOnDefault}"
-              }
-            }
-          }
-        }
-      },
-      "colorInactive": {
-        "value": "#555557",
-        "type": "color"
-      },
-      "colorDisabled": {
-        "value": "#8c8c8c",
-        "type": "color"
-      },
-      "colorFocused": {
-        "value": "#41BAF1",
-        "type": "color"
-      },
-      "colorUnfocused": {
-        "value": "#fff",
-        "type": "color"
-      },
-      "colorPressed": {
-        "value": "#0171AD",
-        "type": "color"
-      }
-    },
-    "InkColors": {
-      "colorCyan": {
-        "value": "#009ACE",
-        "type": "color"
-      },
-      "colorMagenta": {
-        "value": "#E31C79",
-        "type": "color"
-      },
-      "colorYellow": {
-        "value": "#FFD100",
-        "type": "color"
-      },
-      "colorBlack": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "colorLightCyan": {
-        "value": "#90d7ec",
-        "type": "color"
-      },
-      "colorLightMagenta": {
-        "value": "#f5a0c5",
-        "type": "color"
-      },
-      "colorRed": {
-        "value": "#DA291C",
-        "type": "color"
-      },
-      "colorChromaticRed": {
-        "value": "#DA291C",
-        "type": "color"
-      },
-      "colorBlue": {
-        "value": "#0033A0",
-        "type": "color"
-      },
-      "colorChromaticBlue": {
-        "value": "#0033A0",
-        "type": "color"
-      },
-      "colorGreen": {
-        "value": "#00843D",
-        "type": "color"
-      },
-      "colorChromaticGreen": {
-        "value": "#00843D",
-        "type": "color"
-      },
-      "colorOrange": {
-        "value": "#F68B1F",
-        "type": "color"
-      },
-      "colorViolet": {
-        "value": "#E474FF",
-        "type": "color"
-      },
-      "colorPhotoBlack": {
-        "value": "#1C1F2A",
-        "type": "color"
-      },
-      "colorMatteBlack": {
-        "value": "#333F48",
-        "type": "color"
-      },
-      "colorDarkGray": {
-        "value": "#333F48",
-        "type": "color"
-      },
-      "colorGray": {
-        "value": "#707372",
-        "type": "color"
-      },
-      "colorMediumGray": {
-        "value": "#7e8083",
-        "type": "color"
-      },
-      "colorLightGray": {
-        "value": "#9EA2A2",
-        "type": "color"
-      },
-      "colorLightLightGray": {
-        "value": "#dcddde",
-        "type": "color"
-      },
-      "colorWhite": {
-        "value": "#FFFFFF",
-        "type": "color"
-      },
-      "Functional": {
-        "colorGlossEnhancer": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
-        "colorOptimizer": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
-        "colorOverCoat": {
-          "value": "#FFFFFF",
-          "type": "color"
-        },
-        "colorBluePrint1": {
-          "value": "#009ACE",
-          "type": "color"
-        },
-        "colorBluePrint2": {
-          "value": "#E31C79",
-          "type": "color"
-        },
-        "colorScratchAgent": {
-          "value": "#ffffff",
-          "type": "color"
-        },
-        "colorOrganicPhotoConductor": {
-          "value": "#ffffff",
-          "type": "color"
-        }
-      }
-    },
-    "AppColors": {
-      "colorSystem": {
-        "value": "#62829D",
-        "type": "color"
-      },
-      "colorCopy": {
-        "value": "#40946D",
-        "type": "color"
-      },
-      "colorScan": {
-        "value": "#BE63AE",
-        "type": "color"
-      },
-      "colorPrint": {
-        "value": "#0096D6",
-        "type": "color"
-      },
-      "colorFax": {
-        "value": "#915EC7",
-        "type": "color"
-      },
-      "colorSupplies": {
-        "value": "#D66C27",
-        "type": "color"
-      },
-      "colorContacts": {
-        "value": "#E0607D",
-        "type": "color"
-      },
-      "colorSettings": {
-        "value": "#089BC0",
-        "type": "color"
-      },
-      "colorJobs": {
-        "value": "#2F9E97",
-        "type": "color"
-      },
-      "colorTools": {
-        "value": "#BB862C",
-        "type": "color"
-      },
-      "colorQuicksets": {
-        "value": "#655766",
-        "type": "color"
-      },
-      "colorThirdpartyApps": {
-        "value": "#336EA0",
-        "type": "color"
-      }
-    },
-    "elevation": {
-      "opacity0": {
-        "value": "0",
-        "type": "opacity"
-      },
-      "opacity1": {
-        "value": "0.32",
-        "type": "opacity"
-      },
-      "opacity2": {
-        "value": "0.36",
-        "type": "opacity"
-      },
-      "opacity3": {
-        "value": "0.4",
-        "type": "opacity"
-      },
-      "opacity4": {
-        "value": "0.44",
-        "type": "opacity"
-      },
-      "opacity5": {
-        "value": "0.48",
-        "type": "opacity"
-      },
-      "opacity6": {
-        "value": "0.52",
-        "type": "opacity"
-      },
-      "opacity7": {
-        "value": "0.56",
-        "type": "opacity"
-      },
-      "opacity10": {
-        "value": "100",
-        "type": "opacity"
-      }
-    },
-    "HP Simplified": {
-      "value": "HP Simplified",
-      "type": "fontFamilies"
-    },
-    "FormaDJR": {
-      "value": "Forma DJR Micro",
-      "type": "fontFamilies"
-    }
-  },
   "theme/dark": {
     "black": {
       "value": "#000000",
@@ -927,6 +447,19 @@
             "modify": {
               "type": "alpha",
               "value": "0.16",
+              "space": "lch"
+            }
+          }
+        }
+      },
+      "colorForeground-20%": {
+        "value": "{SemanticColors.colorForeground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.2",
               "space": "lch"
             }
           }
@@ -3443,6 +2976,10 @@
       "value": "120%",
       "type": "lineHeights"
     },
+    "XS": {
+      "value": "100%",
+      "type": "lineHeights"
+    },
     "screen-size": {
       "XS": {
         "value": {
@@ -3578,6 +3115,10 @@
           "value": "{rem.globalRem}*0.25",
           "type": "sizing"
         },
+        "02rem": {
+          "value": "{rem.globalRem}*0.2",
+          "type": "sizing"
+        },
         "04rem": {
           "value": "{rem.globalRem}*0.4",
           "type": "sizing"
@@ -3599,6 +3140,18 @@
       },
       "08rem": {
         "value": "{rem.globalRem}*0.8",
+        "type": "spacing"
+      },
+      "015rem": {
+        "value": "{rem.globalRem}*0.15",
+        "type": "spacing"
+      },
+      "02rem": {
+        "value": "{rem.globalRem}*0.2",
+        "type": "spacing"
+      },
+      "03rem": {
+        "value": "{rem.globalRem}*0.3",
         "type": "spacing"
       }
     },
@@ -3794,32 +3347,29 @@
     "2px": {
       "value": "2",
       "type": "borderWidth"
+    },
+    "button": {
+      "value": {
+        "height": "50px",
+        "itemSpacing": "{sp1}",
+        "fill": "{SemanticColors.Primary.colorPrimaryHovered}",
+        "fontFamilies": "{HP Simplified}",
+        "fontSizes": "{H4}",
+        "borderRadius": "{corner-radius.crb}",
+        "lineHeights": "{S}",
+        "horizontalPadding": "{sp5}"
+      },
+      "type": "composition"
     }
   },
-  "$themes": [
-    {
-      "id": "a4d5434203ab2c47014b483fcd434a0446da080f",
-      "name": "12pxRem",
-      "selectedTokenSets": {
-        "screen size/ S-XS - rem: 11 px": "enabled"
-      },
-      "$figmaStyleReferences": {}
-    },
-    {
-      "id": "4d38a67cc337c477195e4b057a4b0cefb544537f",
-      "name": "17pxRem",
-      "selectedTokenSets": {
-        "screen size/ S-XS - rem: 11 px": "enabled"
-      },
-      "$figmaStyleReferences": {}
-    }
-  ],
+  "font/HP Simplified": {},
+  "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "main",
       "theme/dark",
       "theme/light",
-      "screen size/ S-XS - rem: 11 px"
+      "screen size/ S-XS - rem: 11 px",
+      "font/HP Simplified"
     ]
   }
 }
