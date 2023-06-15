@@ -2911,7 +2911,7 @@
       }
     }
   },
-  "screen size/ S-XS - rem: 11 px": {
+  "Rem/11 px": {
     "rem": {
       "globalRem": {
         "value": "11",
@@ -3370,14 +3370,21 @@
       "type": "composition"
     }
   },
-  "font/HP Simplified": {},
+  "Ffont/Forma": {
+    "Forma": {
+      "value": "Forma DJR UI",
+      "type": "fontFamilies"
+    }
+  },
+  "Ffont/Simplified": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "theme/dark",
       "theme/light",
-      "screen size/ S-XS - rem: 11 px",
-      "font/HP Simplified"
+      "Rem/11 px",
+      "Ffont/Forma",
+      "Ffont/Simplified"
     ]
   }
 }
