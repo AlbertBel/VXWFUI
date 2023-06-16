@@ -296,6 +296,19 @@
       }
     },
     "OpacityColors": {
+      "colorBackground - 50%": {
+        "value": "{SemanticColors.colorBackground}",
+        "type": "color",
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "value": "0.5",
+              "space": "lch"
+            }
+          }
+        }
+      },
       "colorSuccess-20%": {
         "value": "{SemanticColors.colorSuccess}",
         "type": "color",
@@ -2989,6 +3002,10 @@
         "value": "{rem.globalRem}*0.2",
         "type": "spacing"
       },
+      "025rem": {
+        "value": "{rem.globalRem}*0.25",
+        "type": "spacing"
+      },
       "03rem": {
         "value": "{rem.globalRem}*0.3",
         "type": "spacing"
@@ -3098,6 +3115,10 @@
         "value": "{rem.globalRem}*7",
         "type": "sizing"
       },
+      "8 rem": {
+        "value": "{rem.globalRem}*8",
+        "type": "sizing"
+      },
       "9 rem": {
         "value": "{rem.globalRem}*9",
         "type": "sizing"
@@ -3199,6 +3220,10 @@
       "other-sizes": {
         "2point7rem": {
           "value": "{rem.globalRem}*2.7",
+          "type": "sizing"
+        },
+        "3,5 rem": {
+          "value": "{rem.globalRem}*3.5",
           "type": "sizing"
         },
         "2point5rem": {
