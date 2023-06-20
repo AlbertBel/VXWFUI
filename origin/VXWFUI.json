@@ -293,6 +293,10 @@
       "colorPressed": {
         "value": "#0171AD",
         "type": "color"
+      },
+      "CBB Sunspot": {
+        "value": "#4d4d4d",
+        "type": "color"
       }
     },
     "OpacityColors": {
@@ -3017,6 +3021,10 @@
       "045rem": {
         "value": "{rem.globalRem}*0.45",
         "type": "spacing"
+      },
+      "083rem": {
+        "value": "{rem.globalRem}*0.83",
+        "type": "spacing"
       }
     },
     "corner radius": {
@@ -3215,6 +3223,12 @@
             "value": "{rem.globalRem}*2.5",
             "type": "sizing"
           }
+        },
+        "cbb sunspot": {
+          "4,6 rem": {
+            "value": "{rem.globalRem}*4.6",
+            "type": "sizing"
+          }
         }
       },
       "other-sizes": {
@@ -3240,6 +3254,10 @@
         },
         "5point6rem": {
           "value": "{rem.globalRem}*5.6",
+          "type": "sizing"
+        },
+        "5,5 rem": {
+          "value": "{rem.globalRem}*5.5",
           "type": "sizing"
         },
         "025rem": {
