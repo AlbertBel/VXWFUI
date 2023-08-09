@@ -2090,14 +2090,6 @@
         "type": "color"
       }
     },
-    "HP Simplified": {
-      "value": "HP Simplified",
-      "type": "fontFamilies"
-    },
-    "FormaDJR": {
-      "value": "Forma DJR Micro",
-      "type": "fontFamilies"
-    },
     "Neutrals": {
       "NeutralA": {
         "neutral000": {
@@ -3095,8 +3087,1578 @@
       }
     },
     "sizes": {
+      "0,5 rem": {
+        "value": "{rem.globalRem}*0.5",
+        "type": "sizing"
+      },
       "1 rem": {
         "value": "{rem.globalRem}",
+        "type": "sizing"
+      },
+      "2 rem": {
+        "value": "{rem.globalRem}*2",
+        "type": "sizing"
+      },
+      "3 rem": {
+        "value": "{rem.globalRem}*3",
+        "type": "sizing"
+      },
+      "4 rem": {
+        "value": "{rem.globalRem}*4",
+        "type": "sizing"
+      },
+      "5 rem": {
+        "value": "{rem.globalRem}*5",
+        "type": "sizing"
+      },
+      "6 rem": {
+        "value": "{rem.globalRem}*6",
+        "type": "sizing"
+      },
+      "7 rem": {
+        "value": "{rem.globalRem}*7",
+        "type": "sizing"
+      },
+      "8 rem": {
+        "value": "{rem.globalRem}*8",
+        "type": "sizing"
+      },
+      "9 rem": {
+        "value": "{rem.globalRem}*9",
+        "type": "sizing"
+      },
+      "icon": {
+        "header": {
+          "3 rem": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          }
+        },
+        "textimage": {
+          "3 rem - textimage": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          },
+          "6 rem - image container": {
+            "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          }
+        },
+        "namevalue": {
+          "4,2 rem - icon group default": {
+            "value": "{rem.globalRem}*4.2",
+            "type": "sizing"
+          },
+          "5,6 rem - icon group prominent": {
+            "value": "{rem.globalRem}*5.6",
+            "type": "sizing"
+          },
+          "2,1 rem - name&value": {
+            "value": "{rem.globalRem}*2.1",
+            "type": "sizing"
+          }
+        },
+        "button": {
+          "2,1 rem - auxuilary": {
+            "value": "{rem.globalRem}*2.1",
+            "type": "sizing"
+          },
+          "2,5 rem - variation 1 & only icon": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "supplies": {
+          "2,1 rem - all": {
+            "value": "{rem.globalRem}*2.1",
+            "type": "sizing"
+          }
+        },
+        "row": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "status box": {
+          "2,5 rem - status & extra": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "tab system": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "text field": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "card": {
+          "2,5 rem - arrow": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "keyboard": {
+          "2,5 rem - tabs": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          },
+          "2 rem - keys": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "combobox": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "cbb sunspot": {
+          "4,6 rem": {
+            "value": "{rem.globalRem}*4.6",
+            "type": "sizing"
+          }
+        }
+      },
+      "other-sizes": {
+        "2point7rem": {
+          "value": "{rem.globalRem}*2.7",
+          "type": "sizing"
+        },
+        "3,5 rem": {
+          "value": "{rem.globalRem}*3.5",
+          "type": "sizing"
+        },
+        "2point5rem": {
+          "value": "{rem.globalRem}*2.5",
+          "type": "sizing"
+        },
+        "1point7rem": {
+          "value": "{rem.globalRem}*1.7",
+          "type": "sizing"
+        },
+        "1point8rem": {
+          "value": "{rem.globalRem}*1.8",
+          "type": "sizing"
+        },
+        "5point6rem": {
+          "value": "{rem.globalRem}*5.6",
+          "type": "sizing"
+        },
+        "5,5 rem": {
+          "value": "{rem.globalRem}*5.5",
+          "type": "sizing"
+        },
+        "025rem": {
+          "value": "{rem.globalRem}*0.25",
+          "type": "sizing"
+        },
+        "02rem": {
+          "value": "{rem.globalRem}*0.2",
+          "type": "sizing"
+        },
+        "04rem": {
+          "value": "{rem.globalRem}*0.4",
+          "type": "sizing"
+        },
+        "03rem": {
+          "value": "{rem.globalRem}*0.3",
+          "type": "sizing"
+        },
+        "07rem": {
+          "value": "{rem.globalRem}*0.7",
+          "type": "sizing"
+        },
+        "075rem": {
+          "value": "{rem.globalRem}*0.75",
+          "type": "sizing"
+        }
+      }
+    },
+    "background styles": {
+      "box1": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral008}"
+        },
+        "type": "composition"
+      },
+      "box2A": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral010}"
+        },
+        "type": "composition"
+      },
+      "box2B": {
+        "value": {
+          "fill": "{Neutrals.NeutralB.neutralB004}",
+          "opacity": "0.9"
+        },
+        "type": "composition"
+      },
+      "box3": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral012}"
+        },
+        "type": "composition"
+      },
+      "box4": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral014}"
+        },
+        "type": "composition"
+      },
+      "keyA": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral016}",
+          "borderColor": "{Neutrals.NeutralA.neutral018}"
+        },
+        "type": "composition"
+      },
+      "keyB": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral024}",
+          "borderColor": "{Neutrals.NeutralA.neutral026}"
+        },
+        "type": "composition"
+      }
+    },
+    "elevation styles": {
+      "elevation1": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-32%}",
+          "boxShadow": "{elevation.1}"
+        },
+        "type": "composition"
+      },
+      "elevation2": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-36%}",
+          "boxShadow": "{elevation.2}"
+        },
+        "type": "composition"
+      },
+      "elevation3": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-40%}",
+          "boxShadow": "{elevation.3}"
+        },
+        "type": "composition"
+      },
+      "elevation4": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-44%}",
+          "boxShadow": "{elevation.4}"
+        },
+        "type": "composition"
+      },
+      "elevation5": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-48%}",
+          "boxShadow": "{elevation.5}"
+        },
+        "type": "composition"
+      },
+      "elevation6": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-52%}",
+          "boxShadow": "{elevation.6}"
+        },
+        "type": "composition"
+      },
+      "elevation7": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-56%}",
+          "boxShadow": "{elevation.7}"
+        },
+        "type": "composition"
+      }
+    },
+    "elevation": {
+      "1": {
+        "value": {
+          "x": "0",
+          "y": "0.15 rem",
+          "blur": "0.45 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "2": {
+        "value": {
+          "x": "0",
+          "y": "0.25 rem",
+          "blur": "0.75 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "3": {
+        "value": {
+          "x": "0",
+          "y": "0.33 rem",
+          "blur": "1.33 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "4": {
+        "value": {
+          "x": "0",
+          "y": "0.66 rem",
+          "blur": "2 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "5": {
+        "value": {
+          "x": "0",
+          "y": "0.66 rem",
+          "blur": "2.6 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "6": {
+        "value": {
+          "x": "0",
+          "y": "0.5 rem",
+          "blur": "1 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "7": {
+        "value": {
+          "x": "0",
+          "y": "1 px",
+          "blur": "1 px",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "1px": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "2px": {
+      "value": "2",
+      "type": "borderWidth"
+    }
+  },
+  "Rem/ 14 px (M)": {
+    "rem": {
+      "globalRem": {
+        "value": "14",
+        "type": "sizing"
+      }
+    },
+    "sp0": {
+      "value": "{rem.globalRem} * 0",
+      "type": "spacing"
+    },
+    "sp1": {
+      "value": "{rem.globalRem} * 0.3",
+      "type": "spacing"
+    },
+    "sp2": {
+      "value": "{rem.globalRem} * 0.5",
+      "type": "spacing"
+    },
+    "sp3": {
+      "value": "{rem.globalRem} * 0.65",
+      "type": "spacing"
+    },
+    "sp4": {
+      "value": "{rem.globalRem} * 1",
+      "type": "spacing"
+    },
+    "sp5": {
+      "value": "{rem.globalRem} * 1.5",
+      "type": "spacing"
+    },
+    "multiple spacing": {
+      "2sp4": {
+        "value": "{sp4} *2",
+        "type": "spacing"
+      },
+      "4sp1": {
+        "value": "{sp1}*4",
+        "type": "spacing"
+      },
+      "08rem": {
+        "value": "{rem.globalRem}*0.8",
+        "type": "spacing"
+      },
+      "015rem": {
+        "value": "{rem.globalRem}*0.15",
+        "type": "spacing"
+      },
+      "02rem": {
+        "value": "{rem.globalRem}*0.2",
+        "type": "spacing"
+      },
+      "025rem": {
+        "value": "{rem.globalRem}*0.25",
+        "type": "spacing"
+      },
+      "03rem": {
+        "value": "{rem.globalRem}*0.3",
+        "type": "spacing"
+      },
+      "4rem": {
+        "value": "{rem.globalRem}*4",
+        "type": "spacing"
+      },
+      "045rem": {
+        "value": "{rem.globalRem}*0.45",
+        "type": "spacing"
+      },
+      "083rem": {
+        "value": "{rem.globalRem}*0.83",
+        "type": "spacing"
+      }
+    },
+    "corner radius": {
+      "cr0": {
+        "value": "{rem.globalRem} * 0",
+        "type": "borderRadius"
+      },
+      "cr1": {
+        "value": "{rem.globalRem} * 0.3",
+        "type": "borderRadius"
+      },
+      "cr2": {
+        "value": "{rem.globalRem} * 0.5",
+        "type": "borderRadius"
+      },
+      "cr3": {
+        "value": "{rem.globalRem} * 0.65",
+        "type": "borderRadius"
+      },
+      "cr4": {
+        "value": "{rem.globalRem} * 1",
+        "type": "borderRadius"
+      },
+      "cr5": {
+        "value": "{rem.globalRem} * 1.3",
+        "type": "borderRadius"
+      },
+      "crb": {
+        "value": "{rem.globalRem} * 2",
+        "type": "borderRadius"
+      }
+    },
+    "screen size": {
+      "XS": {
+        "value": {
+          "width": "320px",
+          "height": "240px"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "width": "480px",
+          "height": "272px"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "width": "1024px",
+          "height": "768px"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "width": "1280px",
+          "height": "800px"
+        },
+        "type": "composition"
+      },
+      "XL": {
+        "value": {
+          "width": "1366px",
+          "height": "768px"
+        },
+        "type": "composition"
+      }
+    },
+    "sizes": {
+      "1 rem": {
+        "value": "{rem.globalRem}",
+        "type": "sizing"
+      },
+      "0,5 rem": {
+        "value": "{rem.globalRem}*0.5",
+        "type": "sizing"
+      },
+      "2 rem": {
+        "value": "{rem.globalRem}*2",
+        "type": "sizing"
+      },
+      "3 rem": {
+        "value": "{rem.globalRem}*3",
+        "type": "sizing"
+      },
+      "4 rem": {
+        "value": "{rem.globalRem}*4",
+        "type": "sizing"
+      },
+      "5 rem": {
+        "value": "{rem.globalRem}*5",
+        "type": "sizing"
+      },
+      "6 rem": {
+        "value": "{rem.globalRem}*6",
+        "type": "sizing"
+      },
+      "7 rem": {
+        "value": "{rem.globalRem}*7",
+        "type": "sizing"
+      },
+      "8 rem": {
+        "value": "{rem.globalRem}*8",
+        "type": "sizing"
+      },
+      "9 rem": {
+        "value": "{rem.globalRem}*9",
+        "type": "sizing"
+      },
+      "icon": {
+        "header": {
+          "3 rem": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          }
+        },
+        "textimage": {
+          "3 rem - textimage": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          },
+          "6 rem - image container": {
+            "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          }
+        },
+        "namevalue": {
+          "4,2 rem - icon group default": {
+            "value": "{rem.globalRem}*4.2",
+            "type": "sizing"
+          },
+          "5,6 rem - icon group prominent": {
+            "value": "{rem.globalRem}*5.6",
+            "type": "sizing"
+          },
+          "2,1 rem - name&value": {
+            "value": "{rem.globalRem}*2.1",
+            "type": "sizing"
+          }
+        },
+        "button": {
+          "2,1 rem - auxuilary": {
+            "value": "{rem.globalRem}*2.1",
+            "type": "sizing"
+          },
+          "2,5 rem - variation 1 & only icon": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "supplies": {
+          "2,1 rem - all": {
+            "value": "{rem.globalRem}*2.1",
+            "type": "sizing"
+          }
+        },
+        "row": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "status box": {
+          "2,5 rem - status & extra": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "tab system": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "text field": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "card": {
+          "2,5 rem - arrow": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "keyboard": {
+          "2,5 rem - tabs": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          },
+          "2 rem - keys": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "combobox": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "cbb sunspot": {
+          "4,6 rem": {
+            "value": "{rem.globalRem}*4.6",
+            "type": "sizing"
+          }
+        }
+      },
+      "other-sizes": {
+        "2point7rem": {
+          "value": "{rem.globalRem}*2.7",
+          "type": "sizing"
+        },
+        "3,5 rem": {
+          "value": "{rem.globalRem}*3.5",
+          "type": "sizing"
+        },
+        "2point5rem": {
+          "value": "{rem.globalRem}*2.5",
+          "type": "sizing"
+        },
+        "1point7rem": {
+          "value": "{rem.globalRem}*1.7",
+          "type": "sizing"
+        },
+        "1point8rem": {
+          "value": "{rem.globalRem}*1.8",
+          "type": "sizing"
+        },
+        "5point6rem": {
+          "value": "{rem.globalRem}*5.6",
+          "type": "sizing"
+        },
+        "5,5 rem": {
+          "value": "{rem.globalRem}*5.5",
+          "type": "sizing"
+        },
+        "025rem": {
+          "value": "{rem.globalRem}*0.25",
+          "type": "sizing"
+        },
+        "02rem": {
+          "value": "{rem.globalRem}*0.2",
+          "type": "sizing"
+        },
+        "04rem": {
+          "value": "{rem.globalRem}*0.4",
+          "type": "sizing"
+        },
+        "03rem": {
+          "value": "{rem.globalRem}*0.3",
+          "type": "sizing"
+        },
+        "07rem": {
+          "value": "{rem.globalRem}*0.7",
+          "type": "sizing"
+        },
+        "075rem": {
+          "value": "{rem.globalRem}*0.75",
+          "type": "sizing"
+        }
+      }
+    },
+    "background styles": {
+      "box1": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral008}"
+        },
+        "type": "composition"
+      },
+      "box2A": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral010}"
+        },
+        "type": "composition"
+      },
+      "box2B": {
+        "value": {
+          "fill": "{Neutrals.NeutralB.neutralB004}",
+          "opacity": "0.9"
+        },
+        "type": "composition"
+      },
+      "box3": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral012}"
+        },
+        "type": "composition"
+      },
+      "box4": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral014}"
+        },
+        "type": "composition"
+      },
+      "keyA": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral016}",
+          "borderColor": "{Neutrals.NeutralA.neutral018}"
+        },
+        "type": "composition"
+      },
+      "keyB": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral024}",
+          "borderColor": "{Neutrals.NeutralA.neutral026}"
+        },
+        "type": "composition"
+      }
+    },
+    "elevation styles": {
+      "elevation1": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-32%}",
+          "boxShadow": "{elevation.1}"
+        },
+        "type": "composition"
+      },
+      "elevation2": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-36%}",
+          "boxShadow": "{elevation.2}"
+        },
+        "type": "composition"
+      },
+      "elevation3": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-40%}",
+          "boxShadow": "{elevation.3}"
+        },
+        "type": "composition"
+      },
+      "elevation4": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-44%}",
+          "boxShadow": "{elevation.4}"
+        },
+        "type": "composition"
+      },
+      "elevation5": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-48%}",
+          "boxShadow": "{elevation.5}"
+        },
+        "type": "composition"
+      },
+      "elevation6": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-52%}",
+          "boxShadow": "{elevation.6}"
+        },
+        "type": "composition"
+      },
+      "elevation7": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-56%}",
+          "boxShadow": "{elevation.7}"
+        },
+        "type": "composition"
+      }
+    },
+    "elevation": {
+      "1": {
+        "value": {
+          "x": "0",
+          "y": "0.15 rem",
+          "blur": "0.45 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "2": {
+        "value": {
+          "x": "0",
+          "y": "0.25 rem",
+          "blur": "0.75 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "3": {
+        "value": {
+          "x": "0",
+          "y": "0.33 rem",
+          "blur": "1.33 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "4": {
+        "value": {
+          "x": "0",
+          "y": "0.66 rem",
+          "blur": "2 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "5": {
+        "value": {
+          "x": "0",
+          "y": "0.66 rem",
+          "blur": "2.6 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "6": {
+        "value": {
+          "x": "0",
+          "y": "0.5 rem",
+          "blur": "1 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "7": {
+        "value": {
+          "x": "0",
+          "y": "1 px",
+          "blur": "1 px",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "1px": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "2px": {
+      "value": "2",
+      "type": "borderWidth"
+    }
+  },
+  "Rem/ 15 px (L)": {
+    "rem": {
+      "globalRem": {
+        "value": "15",
+        "type": "sizing"
+      }
+    },
+    "sp0": {
+      "value": "{rem.globalRem} * 0",
+      "type": "spacing"
+    },
+    "sp1": {
+      "value": "{rem.globalRem} * 0.3",
+      "type": "spacing"
+    },
+    "sp2": {
+      "value": "{rem.globalRem} * 0.5",
+      "type": "spacing"
+    },
+    "sp3": {
+      "value": "{rem.globalRem} * 0.65",
+      "type": "spacing"
+    },
+    "sp4": {
+      "value": "{rem.globalRem} * 1",
+      "type": "spacing"
+    },
+    "sp5": {
+      "value": "{rem.globalRem} * 1.5",
+      "type": "spacing"
+    },
+    "multiple spacing": {
+      "2sp4": {
+        "value": "{sp4} *2",
+        "type": "spacing"
+      },
+      "4sp1": {
+        "value": "{sp1}*4",
+        "type": "spacing"
+      },
+      "08rem": {
+        "value": "{rem.globalRem}*0.8",
+        "type": "spacing"
+      },
+      "015rem": {
+        "value": "{rem.globalRem}*0.15",
+        "type": "spacing"
+      },
+      "02rem": {
+        "value": "{rem.globalRem}*0.2",
+        "type": "spacing"
+      },
+      "025rem": {
+        "value": "{rem.globalRem}*0.25",
+        "type": "spacing"
+      },
+      "03rem": {
+        "value": "{rem.globalRem}*0.3",
+        "type": "spacing"
+      },
+      "4rem": {
+        "value": "{rem.globalRem}*4",
+        "type": "spacing"
+      },
+      "045rem": {
+        "value": "{rem.globalRem}*0.45",
+        "type": "spacing"
+      },
+      "083rem": {
+        "value": "{rem.globalRem}*0.83",
+        "type": "spacing"
+      }
+    },
+    "corner radius": {
+      "cr0": {
+        "value": "{rem.globalRem} * 0",
+        "type": "borderRadius"
+      },
+      "cr1": {
+        "value": "{rem.globalRem} * 0.3",
+        "type": "borderRadius"
+      },
+      "cr2": {
+        "value": "{rem.globalRem} * 0.5",
+        "type": "borderRadius"
+      },
+      "cr3": {
+        "value": "{rem.globalRem} * 0.65",
+        "type": "borderRadius"
+      },
+      "cr4": {
+        "value": "{rem.globalRem} * 1",
+        "type": "borderRadius"
+      },
+      "cr5": {
+        "value": "{rem.globalRem} * 1.3",
+        "type": "borderRadius"
+      },
+      "crb": {
+        "value": "{rem.globalRem} * 2",
+        "type": "borderRadius"
+      }
+    },
+    "screen size": {
+      "XS": {
+        "value": {
+          "width": "320px",
+          "height": "240px"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "width": "480px",
+          "height": "272px"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "width": "1024px",
+          "height": "768px"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "width": "1280px",
+          "height": "800px"
+        },
+        "type": "composition"
+      },
+      "XL": {
+        "value": {
+          "width": "1366px",
+          "height": "768px"
+        },
+        "type": "composition"
+      }
+    },
+    "sizes": {
+      "1 rem": {
+        "value": "{rem.globalRem}",
+        "type": "sizing"
+      },
+      "0,5 rem": {
+        "value": "{rem.globalRem}*0.5",
+        "type": "sizing"
+      },
+      "2 rem": {
+        "value": "{rem.globalRem}*2",
+        "type": "sizing"
+      },
+      "3 rem": {
+        "value": "{rem.globalRem}*3",
+        "type": "sizing"
+      },
+      "4 rem": {
+        "value": "{rem.globalRem}*4",
+        "type": "sizing"
+      },
+      "5 rem": {
+        "value": "{rem.globalRem}*5",
+        "type": "sizing"
+      },
+      "6 rem": {
+        "value": "{rem.globalRem}*6",
+        "type": "sizing"
+      },
+      "7 rem": {
+        "value": "{rem.globalRem}*7",
+        "type": "sizing"
+      },
+      "8 rem": {
+        "value": "{rem.globalRem}*8",
+        "type": "sizing"
+      },
+      "9 rem": {
+        "value": "{rem.globalRem}*9",
+        "type": "sizing"
+      },
+      "icon": {
+        "header": {
+          "3 rem": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          }
+        },
+        "textimage": {
+          "3 rem - textimage": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          },
+          "6 rem - image container": {
+            "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          }
+        },
+        "namevalue": {
+          "4,2 rem - icon group default": {
+            "value": "{rem.globalRem}*4.2",
+            "type": "sizing"
+          },
+          "5,6 rem - icon group prominent": {
+            "value": "{rem.globalRem}*5.6",
+            "type": "sizing"
+          },
+          "2,1 rem - name&value": {
+            "value": "{rem.globalRem}*2.1",
+            "type": "sizing"
+          }
+        },
+        "button": {
+          "2,1 rem - auxuilary": {
+            "value": "{rem.globalRem}*2.1",
+            "type": "sizing"
+          },
+          "2,5 rem - variation 1 & only icon": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "supplies": {
+          "2,1 rem - all": {
+            "value": "{rem.globalRem}*2.1",
+            "type": "sizing"
+          }
+        },
+        "row": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "status box": {
+          "2,5 rem - status & extra": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "tab system": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "text field": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "card": {
+          "2,5 rem - arrow": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "keyboard": {
+          "2,5 rem - tabs": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          },
+          "2 rem - keys": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "combobox": {
+          "2,5 rem - all": {
+            "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          }
+        },
+        "cbb sunspot": {
+          "4,6 rem": {
+            "value": "{rem.globalRem}*4.6",
+            "type": "sizing"
+          }
+        }
+      },
+      "other-sizes": {
+        "2point7rem": {
+          "value": "{rem.globalRem}*2.7",
+          "type": "sizing"
+        },
+        "3,5 rem": {
+          "value": "{rem.globalRem}*3.5",
+          "type": "sizing"
+        },
+        "2point5rem": {
+          "value": "{rem.globalRem}*2.5",
+          "type": "sizing"
+        },
+        "1point7rem": {
+          "value": "{rem.globalRem}*1.7",
+          "type": "sizing"
+        },
+        "1point8rem": {
+          "value": "{rem.globalRem}*1.8",
+          "type": "sizing"
+        },
+        "5point6rem": {
+          "value": "{rem.globalRem}*5.6",
+          "type": "sizing"
+        },
+        "5,5 rem": {
+          "value": "{rem.globalRem}*5.5",
+          "type": "sizing"
+        },
+        "025rem": {
+          "value": "{rem.globalRem}*0.25",
+          "type": "sizing"
+        },
+        "02rem": {
+          "value": "{rem.globalRem}*0.2",
+          "type": "sizing"
+        },
+        "04rem": {
+          "value": "{rem.globalRem}*0.4",
+          "type": "sizing"
+        },
+        "03rem": {
+          "value": "{rem.globalRem}*0.3",
+          "type": "sizing"
+        },
+        "07rem": {
+          "value": "{rem.globalRem}*0.7",
+          "type": "sizing"
+        },
+        "075rem": {
+          "value": "{rem.globalRem}*0.75",
+          "type": "sizing"
+        }
+      }
+    },
+    "background styles": {
+      "box1": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral008}"
+        },
+        "type": "composition"
+      },
+      "box2A": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral010}"
+        },
+        "type": "composition"
+      },
+      "box2B": {
+        "value": {
+          "fill": "{Neutrals.NeutralB.neutralB004}",
+          "opacity": "0.9"
+        },
+        "type": "composition"
+      },
+      "box3": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral012}"
+        },
+        "type": "composition"
+      },
+      "box4": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral014}"
+        },
+        "type": "composition"
+      },
+      "keyA": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral016}",
+          "borderColor": "{Neutrals.NeutralA.neutral018}"
+        },
+        "type": "composition"
+      },
+      "keyB": {
+        "value": {
+          "fill": "{Neutrals.NeutralA.neutral024}",
+          "borderColor": "{Neutrals.NeutralA.neutral026}"
+        },
+        "type": "composition"
+      }
+    },
+    "elevation styles": {
+      "elevation1": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-32%}",
+          "boxShadow": "{elevation.1}"
+        },
+        "type": "composition"
+      },
+      "elevation2": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-36%}",
+          "boxShadow": "{elevation.2}"
+        },
+        "type": "composition"
+      },
+      "elevation3": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-40%}",
+          "boxShadow": "{elevation.3}"
+        },
+        "type": "composition"
+      },
+      "elevation4": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-44%}",
+          "boxShadow": "{elevation.4}"
+        },
+        "type": "composition"
+      },
+      "elevation5": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-48%}",
+          "boxShadow": "{elevation.5}"
+        },
+        "type": "composition"
+      },
+      "elevation6": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-52%}",
+          "boxShadow": "{elevation.6}"
+        },
+        "type": "composition"
+      },
+      "elevation7": {
+        "value": {
+          "fill": "{OpacityColors.colorOnDefault-56%}",
+          "boxShadow": "{elevation.7}"
+        },
+        "type": "composition"
+      }
+    },
+    "elevation": {
+      "1": {
+        "value": {
+          "x": "0",
+          "y": "0.15 rem",
+          "blur": "0.45 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "2": {
+        "value": {
+          "x": "0",
+          "y": "0.25 rem",
+          "blur": "0.75 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "3": {
+        "value": {
+          "x": "0",
+          "y": "0.33 rem",
+          "blur": "1.33 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "4": {
+        "value": {
+          "x": "0",
+          "y": "0.66 rem",
+          "blur": "2 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "5": {
+        "value": {
+          "x": "0",
+          "y": "0.66 rem",
+          "blur": "2.6 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "6": {
+        "value": {
+          "x": "0",
+          "y": "0.5 rem",
+          "blur": "1 rem",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "7": {
+        "value": {
+          "x": "0",
+          "y": "1 px",
+          "blur": "1 px",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      }
+    },
+    "1px": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "2px": {
+      "value": "2",
+      "type": "borderWidth"
+    }
+  },
+  "Rem/12 px (XL)": {
+    "rem": {
+      "globalRem": {
+        "value": "12",
+        "type": "sizing"
+      }
+    },
+    "sp0": {
+      "value": "{rem.globalRem} * 0",
+      "type": "spacing"
+    },
+    "sp1": {
+      "value": "{rem.globalRem} * 0.3",
+      "type": "spacing"
+    },
+    "sp2": {
+      "value": "{rem.globalRem} * 0.5",
+      "type": "spacing"
+    },
+    "sp3": {
+      "value": "{rem.globalRem} * 0.65",
+      "type": "spacing"
+    },
+    "sp4": {
+      "value": "{rem.globalRem} * 1",
+      "type": "spacing"
+    },
+    "sp5": {
+      "value": "{rem.globalRem} * 1.5",
+      "type": "spacing"
+    },
+    "multiple spacing": {
+      "2sp4": {
+        "value": "{sp4} *2",
+        "type": "spacing"
+      },
+      "4sp1": {
+        "value": "{sp1}*4",
+        "type": "spacing"
+      },
+      "08rem": {
+        "value": "{rem.globalRem}*0.8",
+        "type": "spacing"
+      },
+      "015rem": {
+        "value": "{rem.globalRem}*0.15",
+        "type": "spacing"
+      },
+      "02rem": {
+        "value": "{rem.globalRem}*0.2",
+        "type": "spacing"
+      },
+      "025rem": {
+        "value": "{rem.globalRem}*0.25",
+        "type": "spacing"
+      },
+      "03rem": {
+        "value": "{rem.globalRem}*0.3",
+        "type": "spacing"
+      },
+      "4rem": {
+        "value": "{rem.globalRem}*4",
+        "type": "spacing"
+      },
+      "045rem": {
+        "value": "{rem.globalRem}*0.45",
+        "type": "spacing"
+      },
+      "083rem": {
+        "value": "{rem.globalRem}*0.83",
+        "type": "spacing"
+      }
+    },
+    "corner radius": {
+      "cr0": {
+        "value": "{rem.globalRem} * 0",
+        "type": "borderRadius"
+      },
+      "cr1": {
+        "value": "{rem.globalRem} * 0.3",
+        "type": "borderRadius"
+      },
+      "cr2": {
+        "value": "{rem.globalRem} * 0.5",
+        "type": "borderRadius"
+      },
+      "cr3": {
+        "value": "{rem.globalRem} * 0.65",
+        "type": "borderRadius"
+      },
+      "cr4": {
+        "value": "{rem.globalRem} * 1",
+        "type": "borderRadius"
+      },
+      "cr5": {
+        "value": "{rem.globalRem} * 1.3",
+        "type": "borderRadius"
+      },
+      "crb": {
+        "value": "{rem.globalRem} * 2",
+        "type": "borderRadius"
+      }
+    },
+    "screen size": {
+      "XS": {
+        "value": {
+          "width": "320px",
+          "height": "240px"
+        },
+        "type": "composition"
+      },
+      "S": {
+        "value": {
+          "width": "480px",
+          "height": "272px"
+        },
+        "type": "composition"
+      },
+      "M": {
+        "value": {
+          "width": "1024px",
+          "height": "768px"
+        },
+        "type": "composition"
+      },
+      "L": {
+        "value": {
+          "width": "1280px",
+          "height": "800px"
+        },
+        "type": "composition"
+      },
+      "XL": {
+        "value": {
+          "width": "1366px",
+          "height": "768px"
+        },
+        "type": "composition"
+      }
+    },
+    "sizes": {
+      "1 rem": {
+        "value": "{rem.globalRem}",
+        "type": "sizing"
+      },
+      "0,5 rem": {
+        "value": "{rem.globalRem}*0.5",
         "type": "sizing"
       },
       "2 rem": {
@@ -3584,12 +5146,584 @@
       "type": "lineHeights"
     }
   },
-  "$themes": [],
+  "$themes": [
+    {
+      "id": "eeb3eeb8b3f6dd866402e92154f79917bca201f0",
+      "name": "XS-S",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Color Theme/dark": "enabled",
+        "Rem/11 px (S-XS)": "enabled",
+        "Font/Simplified": "enabled"
+      },
+      "$figmaCollectionId": "VariableCollectionId:1592:2621",
+      "$figmaModeId": "1592:0",
+      "$figmaVariableReferences": {
+        "black": "4e930bfec22faecdf93806aaa26c4d7d6165b51c",
+        "white": "facd6f47d6ca8f39855592e33c1e419388e3ddb2",
+        "red25": "fa616bd8ce18fc2541d5ec87f84e1bd0ba9e0774",
+        "amber20": "757cbcdf4ff56a8946c1f50d539a4b195b27e07c",
+        "green60": "048e90242617a9c448d7a76951082074257e8309",
+        "green65": "89d97e6a5724b629bbdf77215a048816fa0aad03",
+        "blue25": "81bc3bed5dcb344cb10cb50b0341917d7557ee0e",
+        "blue100": "e1bc57a15d32b2f994450bfdd79fd004bb95f606",
+        "blue30": "ff43e86e6514d92af39d3c43a9375adb4ae3249a",
+        "blue50": "13584dd30e2edfd54ae976c406abab24b8c3d152",
+        "gray40": "6d16722ed877ee5b04893bebd78f9b34d29a54c0",
+        "SemanticColors.colorOverlay": "059051b7829762b6731c267d3d6798ff9c9937a7",
+        "SemanticColors.colorForeground": "008a277749586120266cc7c69737b2ed8f384fd0",
+        "SemanticColors.colorBackground": "3e09b9a08e409fb9bdd2e6f5368e58a05537a319",
+        "SemanticColors.colorBackground2": "ef30262c3b90433a76ccc0ec497ae90684f28309",
+        "SemanticColors.colorOnDefault": "0b35d127aecc77f56dc25fb676493fe797dd1ab2",
+        "SemanticColors.colorOnPressed": "8de46f48e353b3c88954ff00614a66fbe2aaea10",
+        "SemanticColors.colorAdvisory": "de6a5f8a595fd5bc9487eb1a4fff32b29a1909aa",
+        "SemanticColors.colorSuccess": "0d721728fd01177fe82153a67d1d5eb9b94caf7a",
+        "SemanticColors.colorError": "58e06492e10587a92f0dc4857d4d584bfcd66ac5",
+        "SemanticColors.colorWarning": "845f3a23724165d7a425ee5b52116614c3ef6681",
+        "SemanticColors.colorSelected": "512408325eba56c357055e116c6c309893220ff1",
+        "SemanticColors.colorTransparent": "a1a98b93f6205e98964e58ec9be0fdfde3fc1965",
+        "SemanticColors.Seconadary.colorSecondary": "193af4cde684d2978985602786e08a35d9e0b395",
+        "SemanticColors.Seconadary.colorSecondaryHovered": "1eeca8ee85074a0759e27cd9b20cfb14ec0dc7f8",
+        "SemanticColors.Seconadary.colorSecondaryPressed": "df880dd99cd2326221ecb378468a468fd1836f4b",
+        "SemanticColors.Seconadary.colorSecondaryActivated": "9e257e5dcc3bc6ef7b4f3935558774f3789f7c7d",
+        "SemanticColors.Primary.colorPrimary": "4da60953da449306e2a112d50f5762bb802df879",
+        "SemanticColors.Primary.colorPrimaryHovered": "e875dbd982032ecca086039fe2451ace46ca517b",
+        "SemanticColors.Primary.colorPrimaryPressed": "e6255654f7cabe6ccd5e42bc0a09ffa8d5cad3d5",
+        "SemanticColors.Primary.colorPrimaryActivated": "dcfd3b6bdb93fde7c07bf5b4cce5fde45465c796",
+        "SemanticColors.Action.colorAction": "23607d4dc9ba9c013b89d2366d2d33c79b3903b0",
+        "SemanticColors.Action.colorActionHovered": "77cdad2db11afa4efb940f371ac045266e96776b",
+        "SemanticColors.Action.colorActionPressed": "3896a435eceac92d1243fbdfe0095754ddc4570f",
+        "SemanticColors.Destructive.colorDestructive": "f196853ad5418f56a9d03f2853fcec4061617cd2",
+        "SemanticColors.Destructive.colorDestructiveHovered": "cfc5f997d461fb1606d429e5a207b57c3333b933",
+        "SemanticColors.Destructive.colorDestructivePressed": "6154cdb97dcad51761c853cafa775307d722f306",
+        "SemanticColors.colorInactive": "406835cab297471d7347a5ae6c038ab76344df7f",
+        "SemanticColors.colorDisabled": "315266368ba373f045735c2feb445010640608c6",
+        "SemanticColors.colorFocused": "f80d0af890ac58b8189edf788b455f64158acf17",
+        "SemanticColors.colorUnfocused": "5b995b17077b54106a0a184a2bfc05aebd1d02b4",
+        "SemanticColors.colorPressed": "89381f824d0f52afab860631bf594c65c40f9741",
+        "SemanticColors.CBB Sunspot": "78cd8a838b1cb9d1be4e189f051910183bdc77db",
+        "OpacityColors.colorBackground - 50%": "1a64bf7f3b08ea7fbd38420959fe103b7e18ee8a",
+        "OpacityColors.colorSuccess-20%": "0e8d1ea7e7ae619c29a3f959846110d797504e93",
+        "OpacityColors.colorSuccess-10%": "3f64e3c7c32398d26ed1915e5b5090e5a019440b",
+        "OpacityColors.colorError-20%": "6c11632f12507f1b09eb128a9573bce2a3d0cf89",
+        "OpacityColors.colorError-15%": "e2cdd02feccd6a945e8f4d5e894e91d94c5365a0",
+        "OpacityColors.colorWarning-20%": "e9b0427bfa20a0b2982a15895f600ac3d8e3c1f2",
+        "OpacityColors.colorWarning-10%": "366f1e40c6fb7040bfb9d2a37d330cbfa201dc5a",
+        "OpacityColors.colorBackground-70%": "e9fb0da6db8e800f36489f69c97f62a8259dcc01",
+        "OpacityColors.colorForeground-3%": "a99279caeaabbe56a58c6a43f88bcef21fd05715",
+        "OpacityColors.colorForeground-5%": "62df4a08193cbf0349fa9ec003659e6c2d8ce2d2",
+        "OpacityColors.colorForeground-10%": "ef293073b5ee0a79e8d0ae285c782285abf93b18",
+        "OpacityColors.colorForeground-14%": "4aedcbe50ebedfc83058ee642ad790ce59a572f1",
+        "OpacityColors.colorForeground-16%": "a208898b1615fb878064cd5a5037aa69b21945c3",
+        "OpacityColors.colorForeground-18%": "694c832c2986470e2ae912ac94567dcb7a1fad49",
+        "OpacityColors.colorForeground-20%": "e60c9d3d8de99366d0e983718ba804b3b76f1172",
+        "OpacityColors.colorForeground-24%": "d3a2667cec59f00422512caea1c1a185cae8e56c",
+        "OpacityColors.colorForeground-25%": "75194b579de3080b25dc174e549268085d57b3db",
+        "OpacityColors.colorForeground-50%": "9c48562ea25d6d1549690b6f9072071fa2d48584",
+        "OpacityColors.colorOnDefault-50%": "797a792afa22d2b425ab249ab84619c8baff19d1",
+        "OpacityColors.colorSecondary-60%": "e4c1bb9a05405b89bf35b402954cf124c752b3fe",
+        "OpacityColors.colorSecondary-35%": "585c901406ca5628f1357d80456cdb72fa1ec3e5",
+        "OpacityColors.colorPrimary-80%": "808ca644adadd575c9129f497021d248ad647df5",
+        "OpacityColors.colorPrimary-20%": "15f75bee3660547b50e7ace61aac3eb73d6c6e92",
+        "OpacityColors.colorOnBackground-70%": "ca0abc2601ab9ebee442fda0b7bf264449c7054d",
+        "OpacityColors.colorOnDefault-32%": "ec1d01bce71f70232358911912e161e4d018aa2d",
+        "OpacityColors.colorOnDefault-36%": "9ddae6bc7a72627683db60eb08b8bde6859a0c04",
+        "OpacityColors.colorOnDefault-40%": "650750cde20b438d803b4a6c4462fda10e8c6358",
+        "OpacityColors.colorOnDefault-44%": "61f3ef15535c971ec86617d939d5885dbe578307",
+        "OpacityColors.colorOnDefault-48%": "15a13df3331a7155d1c1ea09be019d14ba967b8e",
+        "OpacityColors.colorOnDefault-52%": "44ed1d3c9d2ee3fc54bf2dbc31130d697dc34782",
+        "OpacityColors.colorOnDefault-56%": "ff31c3aa372006ad39db069dc2c6b1b239ddf931",
+        "InkColors.colorCyan": "31123955e2e4f02a48dd60d9bfc0ba681433d972",
+        "InkColors.colorMagenta": "a873197b8b82309e26bf181909347c9fe5595bf7",
+        "InkColors.colorYellow": "7516419519340d57a904a4ec8a05336cf9109d08",
+        "InkColors.colorBlack": "54eae7229723fb75be5d973246c69d615eb2af71",
+        "InkColors.colorLightCyan": "c54da8390ee81ac94c16e3508e02da357eed0c94",
+        "InkColors.colorLightMagenta": "86cd19a52136bd1194f9bde05a8010d2745e1c80",
+        "InkColors.colorRed": "d74d98fc59c976eef975a31d1d0847cbaf240cfe",
+        "InkColors.colorChromaticRed": "871eb1921780721391813a99288fceb2953709e1",
+        "InkColors.colorBlue": "a7d2a03ad6b6ccccca0209a19a92f875803b56b0",
+        "InkColors.colorChromaticBlue": "4cafe6052317ca9e7a0415a486e8df625c0a9798",
+        "InkColors.colorGreen": "fe35121b52db4f5167f6b9defcbe685b9e628bbd",
+        "InkColors.colorChromaticGreen": "a81bb7baa3cf524b66468005752eefaf88d64306",
+        "InkColors.colorOrange": "cf1af4ed0d1651383d739dde7cfb8896efa019e2",
+        "InkColors.colorViolet": "686bc1baaee049674f1bb92ab73119544d4879f1",
+        "InkColors.colorPhotoBlack": "1f4eb348d663083be4a181e6e012c3b9e2d5057e",
+        "InkColors.colorMatteBlack": "e2b9864d7678d65f4c3c96018fa1a91f72ecb4fa",
+        "InkColors.colorDarkGray": "762a9dc71bed02061cdd2d4142082a1b4debd481",
+        "InkColors.colorGray": "0cfb2db651c8302456a9fb5d5162833433911c0f",
+        "InkColors.colorMediumGray": "2dc290fee49b97cf31045a4ef9d5d526aaccc275",
+        "InkColors.colorLightGray": "fedb0f8e5387ec4cff95e7b883fb10b73c4b58b6",
+        "InkColors.colorLightLightGray": "6686fd62c0b8c8425cc531deb9b97e8dd3d95f42",
+        "InkColors.colorWhite": "217f63c677ae87439b846ff01d3b7669af61cb2d",
+        "InkColors.Functional.colorGlossEnhancer": "276730c3b392787088b51c02f2ad58aee7ed7db5",
+        "InkColors.Functional.colorOptimizer": "711a60d7bde1aac9946ce9ce3220eefb96b8e872",
+        "InkColors.Functional.colorOverCoat": "f4b0e64ce4eb2a3ad3c802d7a2257203180ee088",
+        "InkColors.Functional.colorBluePrint1": "fdf146ef47f9ce9c9cec217603bca16bfc34f43c",
+        "InkColors.Functional.colorBluePrint2": "f8bda8ffa6fc730fa016e067702c8cf0ec4d6110",
+        "InkColors.Functional.colorScratchAgent": "f8e74a4030bffb921b0a90b09ec56530207b5a54",
+        "InkColors.Functional.colorOrganicPhotoConductor": "abe06df829703d5fe51f5c89d12b3b6e738adc7a",
+        "AppColors.colorSystem": "3799222ce4e110c6cc1a2178bae4d0c51466628a",
+        "AppColors.colorCopy": "340607ba0922486cb5c0bb5273e8cdcc4f8149c5",
+        "AppColors.colorScan": "443c2988e4bec3dfddce9b2313a1d7045fe3044b",
+        "AppColors.colorPrint": "a4b84e4693b60324fc18b8d08485855679451008",
+        "AppColors.colorFax": "90d5c5d3e806cd79d90fd7290fa90d6b57c1b89d",
+        "AppColors.colorSupplies": "96eaf08fa75c35f322e6a5df55f1a7ec825c7c17",
+        "AppColors.colorContacts": "b6841920af56b318649a91c84fffc7dfa784a75e",
+        "AppColors.colorSettings": "699cd2a6bf498493bc7267e9c423933c30527d37",
+        "AppColors.colorJobs": "c86d7d987a7076c771de2e6ead46b7ecc9a542de",
+        "AppColors.colorTools": "e4f9ee51c56caa6944290818f1679fafae9e30e5",
+        "AppColors.colorQuicksets": "c967ced2aeca54932715210886afa71542ef9a21",
+        "AppColors.colorThirdpartyApps": "44aa4c487da8bb8b5997666ccc2f429f97c2f51d",
+        "Neutrals.NeutralA.neutral000": "a0973e711465f72834b4fafb775881f88b3aec66",
+        "Neutrals.NeutralA.neutral002": "45c0aef20893dd237db5f390b19f0c1ae0e6d7dd",
+        "Neutrals.NeutralA.neutral004": "fec8a5c703527c18a609504dfc5ca6a879b0d0d0",
+        "Neutrals.NeutralA.neutral006": "7dac9cfce0b6ab4188365c692e728f3939c31a47",
+        "Neutrals.NeutralA.neutral008": "b0e432067fc001463446679b63b83ed20889c0dc",
+        "Neutrals.NeutralA.neutral010": "0e85cff41dab8973dbb7d363a97b851902d2d692",
+        "Neutrals.NeutralA.neutral012": "e000075d62a80ff0b2553f2ca1e1a5306428077b",
+        "Neutrals.NeutralA.neutral014": "e48cc4f62d931583fcb3890c622cca031fa9bdba",
+        "Neutrals.NeutralA.neutral016": "dc49b556051c1fbb024e0245f0595731e98a1924",
+        "Neutrals.NeutralA.neutral018": "59e533a7bcbf17acdcb3abc9b3affb5e65823e88",
+        "Neutrals.NeutralA.neutral020": "1a05fade0382fe5460b7a5e1e06c054ef97e8e18",
+        "Neutrals.NeutralA.neutral022": "abb38f5c9f61bbbff86c5982e85d50e965313116",
+        "Neutrals.NeutralA.neutral024": "65bc925c48970a4086b4e6e8b4643966bc8974a1",
+        "Neutrals.NeutralA.neutral026": "0fea0ce642416dddf8f2ebcb798f6f5d80286d6b",
+        "Neutrals.NeutralA.neutral028": "90ac370dbf63011806dfc391aff575f70d7f1128",
+        "Neutrals.NeutralA.neutral030": "8c01f01026c78f92c44054d29b34ada33bb0d91d",
+        "Neutrals.NeutralA.neutral032": "f988bc6514a6f7388f33484581c2e959d9107ebe",
+        "Neutrals.NeutralA.neutral034": "11b65c6bfcaee829730126b4fad88ab986556b06",
+        "Neutrals.NeutralA.neutral036": "9059e8fbd1f4beea664db5aa5d6df6d7826621e2",
+        "Neutrals.NeutralA.neutral038": "2d6e7ff6c7af426977ca9af22ba08b942cd92981",
+        "Neutrals.NeutralA.neutral040": "310d2c7a86a8719bec233510e6e85421b38b5c3a",
+        "Neutrals.NeutralA.neutral042": "373c5e2dd158e2b6918c3d66be85ceeeaf81ac52",
+        "Neutrals.NeutralA.neutral044": "70ec6bde265d93baaefc3a116633a1abed77ea11",
+        "Neutrals.NeutralA.neutral046": "f086cc203f3d7b2bbc4b7a05cd13195ec873dae0",
+        "Neutrals.NeutralA.neutral048": "747a73a03dda79d10d37d0af37eea9c1d379cbd4",
+        "Neutrals.NeutralA.neutral050": "656adb25c4b0b52bf9944d1ce8a7489e49443e6d",
+        "Neutrals.NeutralA.neutral052": "0d3a48e95683396733842cee323d0264894f81c1",
+        "Neutrals.NeutralA.neutral054": "8214f5b5c99f4f11b30dc5bb8064c377990b2273",
+        "Neutrals.NeutralA.neutral056": "0389b672cce31bb02badc20192932881461c6912",
+        "Neutrals.NeutralA.neutral058": "8297bee6efc89674dc0a3f7c913519c6dbd7f404",
+        "Neutrals.NeutralA.neutral060": "2b0a16697fef83ad59600f827e2977e5030d5e6b",
+        "Neutrals.NeutralA.neutral062": "11d1af803485c1f28d1b2b4cfb1278f1a7a35cb9",
+        "Neutrals.NeutralA.neutral064": "980d831a86fa6c56bc9e10a82e021aab9d077935",
+        "Neutrals.NeutralA.neutral066": "1040a575a467b02e2251f4c78d1a0f96820492ea",
+        "Neutrals.NeutralA.neutral068": "02302e6ced8a67145ca889071096e3e923a53f19",
+        "Neutrals.NeutralA.neutral070": "5dffd4a0f4692a462c1e53a886ef36d7b6c87782",
+        "Neutrals.NeutralA.neutral072": "affc572d3aa44e8a8af05e8dc17819bead5b8ca3",
+        "Neutrals.NeutralA.neutral074": "9a58e0c0d8b0199dfef72aafcd0dc955c33e3430",
+        "Neutrals.NeutralA.neutral076": "7d3023b7057b1731f14630462584ed2b25e3f120",
+        "Neutrals.NeutralA.neutral078": "5a5b2402a7d37c923753f90820a0ef2c1c54d29d",
+        "Neutrals.NeutralA.neutral080": "cdb5091f22e2b39ae77cce8f8cb5d6a807e0dabc",
+        "Neutrals.NeutralA.neutral082": "b3507a720fb0f633d4f2cf7f6d1132169fa5e9a5",
+        "Neutrals.NeutralA.neutral084": "1d4fb229f0d398252b63c741c239f5eed5581f27",
+        "Neutrals.NeutralA.neutral086": "2587d4f8e507379f4c992ae5f9fa7d7b77372fd3",
+        "Neutrals.NeutralA.neutral088": "a97ec8e0e19a9d9ba6191c1ed794a5f35d20b381",
+        "Neutrals.NeutralA.neutral090": "3932a065e553acfe39465ef7ebb4354b3424ca2f",
+        "Neutrals.NeutralA.neutral092": "51ead36172a08982881fc5ae6e94b4eb73f8d8a6",
+        "Neutrals.NeutralA.neutral094": "7649281228b5aa725171654b901486860de299f5",
+        "Neutrals.NeutralA.neutral096": "5d9949f5fcd84c1562617f81c0785c0687f2d22a",
+        "Neutrals.NeutralA.neutral098": "474a82dd4b870e6c9a072c23b394861a337adc7e",
+        "Neutrals.NeutralA.neutral100": "c3ada0533c29f420b9646a7d6cdbe802e225d93b",
+        "Neutrals.NeutralB.neutralB002": "a393f3f736f6b5de8dd06331399da181d8d5eca2",
+        "Neutrals.NeutralB.neutralB004": "99d35413f73cdeeda09968e9b417ff2811459498",
+        "Neutrals.NeutralB.neutralB006": "adfd824c98a4a5548bc6213a089abf69cb7cfa7b",
+        "rem.globalRem": "6cb71d5800504fe7145c4c286dbf6b0d049eafcb",
+        "sp0": "c799a98e711e058484ea60704f71be44ee716d26",
+        "sp1": "896d11be57179997e3088a27418b45fc18061d4e",
+        "sp2": "afd1e72223a326c57124f77074d3bdea1f9228a7",
+        "sp3": "a1ed581428e050629d7f5e217737348842147d93",
+        "sp4": "f1c7e9ae562d150926eb6aa23c2ce210a437f726",
+        "sp5": "194bda667d196ed0cb1fe00ee5241dbed8497693",
+        "multiple spacing.2sp4": "6d435e3ba8091a768379cb82aba9c6b9ecf4f4c0",
+        "multiple spacing.4sp1": "e80726051370e2391e8d15917accefd418495da8",
+        "multiple spacing.08rem": "b4ddcc355b134abb8374519b06226f76b58bb242",
+        "multiple spacing.015rem": "bd13300663cb40cf0ab9a56a146a5d89196c11e4",
+        "multiple spacing.02rem": "b5aefaa87eed179b3c0c6307f9f8cb8a28294750",
+        "multiple spacing.025rem": "e0b4c0d0fa2331d16a9fed0600af967a61a81413",
+        "multiple spacing.03rem": "dcf7d426a1b4ac0e1b3868a50d0081cd34bd887a",
+        "multiple spacing.4rem": "ae36f927a63a929da9285efdb2dddbe99a6ed8ae",
+        "multiple spacing.045rem": "185cdc15b4fc11caa6a152d2e9c92212a55e6f97",
+        "multiple spacing.083rem": "d4cf197b54f5f01c9d5691f1ae56cd3ec6a3ce83",
+        "corner radius.cr0": "ac3ba08263084c2ed2fe5c358209da60681d2e9c",
+        "corner radius.cr1": "22060627ddff65c8b4a5035dfe9fe64907a953f9",
+        "corner radius.cr2": "806316979018bdce74bd47da424a55ebaaa3fd04",
+        "corner radius.cr3": "604d132e2f3de1083a8e9f72e57c118db098641b",
+        "corner radius.cr4": "fd12cd2c090a68335df43b347d34893be1dec849",
+        "corner radius.cr5": "14e8c60da9da866e5619fcca6f8842f025413dbb",
+        "corner radius.crb": "d8c67b0b717813cc8cfdf841677214c3bf92cd9a",
+        "sizes.1 rem": "7c9d240ed053e02226723a0db98fb7d6bd5e744a",
+        "sizes.2 rem": "3446058ee189deee4d7c2aa055af64661148ab24",
+        "sizes.3 rem": "adc7d5cc07810b411c497a77f22810f4dd813ffd",
+        "sizes.4 rem": "e52e8f9b0c94b6dcaed6d361fe00cbb858fc2240",
+        "sizes.5 rem": "44788d1f5205baba9cfe86381523a50cc4dc8cfc",
+        "sizes.6 rem": "5e73dd554890968dd7ff03a102546ad30f5e4c05",
+        "sizes.7 rem": "8f49ebc0a468e0474509a523d856fe2f97ef17ab",
+        "sizes.8 rem": "8444d131ff7453dbd807585108a175176d8941d0",
+        "sizes.9 rem": "c453b71db2306603de0baef9a0cb6de4e7fc0653",
+        "sizes.icon.header.3 rem": "5e1091da6f40248396a008a138a6902ca2606da4",
+        "sizes.icon.textimage.3 rem - textimage": "27e2c1718c529ccf8265910af31efb934b9a97e2",
+        "sizes.icon.textimage.6 rem - image container": "ad92d1bc209509b5c50fe46c8d3d992cb5d824da",
+        "sizes.icon.namevalue.4,2 rem - icon group default": "ebc5e48e76c26e35e03d914760b7d2269f09157e",
+        "sizes.icon.namevalue.5,6 rem - icon group prominent": "7949203524c37d98e98075e13625b77de3f5a366",
+        "sizes.icon.namevalue.2,1 rem - name&value": "bf35559e23c95b5401edf3dbccf66c8ae30de3d6",
+        "sizes.icon.button.2,1 rem - auxuilary": "6f15a7054c20b747badb0a3f283b2769b6da5c46",
+        "sizes.icon.button.2,5 rem - variation 1 & only icon": "c7d5de2b2b1670b435506b870e9b75a39947e1ba",
+        "sizes.icon.supplies.2,1 rem - all": "e73b44475b3f859a9e6d6ef4247f00746b871d5d",
+        "sizes.icon.row.2,5 rem - all": "a69011fbe1d8880904b67cd3739b0da28dd5f49a",
+        "sizes.icon.status box.2,5 rem - status & extra": "88761d641c12835f77a6b43dfdd574e57c5a0329",
+        "sizes.icon.tab system.2,5 rem - all": "e72fad7780788caeb2c86eb084cf5bd15f1009e9",
+        "sizes.icon.text field.2,5 rem - all": "d5c43ea495961ed7dbbff302eb257c299d131549",
+        "sizes.icon.card.2,5 rem - arrow": "11169bad3739509708605d184d1baa8fa21f31cd",
+        "sizes.icon.keyboard.2,5 rem - tabs": "5745f3593f923f5f61e951f6e240870b8f3d28ea",
+        "sizes.icon.keyboard.2 rem - keys": "fdd3acd98ec08391cca86949442e1b6d5552e8b1",
+        "sizes.icon.combobox.2,5 rem - all": "4e445518a9f624b7d5f91e54a7b08b09d4c7166b",
+        "sizes.icon.cbb sunspot.4,6 rem": "f737fc8c3deee6c9be60652cc8cbd539fa83d138",
+        "sizes.other-sizes.2point7rem": "f09fe1279cebe962b31a69ad9bddedbc8d4beaef",
+        "sizes.other-sizes.3,5 rem": "abf08ad891afd5318537f9604858b060e75c7734",
+        "sizes.other-sizes.2point5rem": "d589bee4d360083acb91ba6fe4db4a70eb98914a",
+        "sizes.other-sizes.1point7rem": "c643a300528a61053383169910b077c0c1513f83",
+        "sizes.other-sizes.1point8rem": "5c5edb20a69b7b7e3a0d21e5dc5ee98e4ea8c0ff",
+        "sizes.other-sizes.5point6rem": "60921b6deee0f8585f68781073fb704e1050e335",
+        "sizes.other-sizes.5,5 rem": "e1d6cb6f81ea579946c44b052ca28abb6dd98960",
+        "sizes.other-sizes.025rem": "2ce73926e0c90b7618dc62e780b3cdd5d2b64276",
+        "sizes.other-sizes.02rem": "b2175e303d4e251d7f452ebe69f997049139fcfc",
+        "sizes.other-sizes.04rem": "7bb0b9510907f8974c303887c04ea9a6d664c737",
+        "sizes.other-sizes.03rem": "74b4f9c239ce2bfd96d8954970f99bc15b85678a",
+        "sizes.other-sizes.07rem": "28506d280ab805ab6995f28a25006c694a3ab3df",
+        "sizes.other-sizes.075rem": "0361856023cb3250ee401d1eec669c447201a044",
+        "1px": "ad9bdf8e3d642af24b873464a534df9fd8efba9d",
+        "2px": "11273cf28508121bd08dce8c7de5bccbb233d19e"
+      },
+      "group": "Dark"
+    },
+    {
+      "id": "4cee2c4a84483fb8b507f88d6ba42d647673e8a8",
+      "name": "XL",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Font/Simplified": "enabled",
+        "Rem/12 px (XL)": "source",
+        "Color Theme/light": "source"
+      },
+      "$figmaCollectionId": "VariableCollectionId:1592:2857",
+      "$figmaModeId": "1592:1",
+      "$figmaVariableReferences": {
+        "black": "1164405921f6aa1dfa6563efddc5254d7bb47082",
+        "white": "67e45608523079787b036367832b1ddabb67eac5",
+        "red25": "637c49101b04fecbe30cf48e5961413903fe0ae8",
+        "amber20": "e16899ac88252ab860f6c69ad08652c4f2c1e727",
+        "green60": "b6946751b410bf760f8c66dfcb69ccff6c3965b9",
+        "green65": "613786d3c46efa52f2314d14bc05be34c6f21ffd",
+        "blue25": "a8c0ce05bfa65966a65bf54738d75a87edff5c20",
+        "blue100": "a0a6ebe7fa4ca14cb5472893bbb6a81549d5fdaf",
+        "blue30": "d81ba768c03f868bd7b69185b2026a5fdb5f8650",
+        "blue50": "b325a0d77bd6844cda05cfb9485cdbad7292172f",
+        "gray40": "6a3c9b1189813f7d5957e4555d65b01828eea9e3",
+        "SemanticColors.colorOverlay": "c6debf2f98d8c80d55d64f45ab0971760b8b8d50",
+        "SemanticColors.colorForeground": "13645dc55e5dc228aade29740028d17666e3a734",
+        "SemanticColors.colorBackground": "d5d52dafe5ddc01ce0061f7d415888cbcfe6f507",
+        "SemanticColors.colorBackground2": "4e343c90d79c506fd3ec3b3b1fd0e72bc0e07f7f",
+        "SemanticColors.colorOnDefault": "df9aea2bd346268d8e34d0f698aced6b75b56e9c",
+        "SemanticColors.colorOnPressed": "05dfd3cebdf9beb1cb2209ac84c42b2e8bfd3815",
+        "SemanticColors.colorAdvisory": "c9a53385d78ba5c58528850ec66be0b396ef8cda",
+        "SemanticColors.colorSuccess": "8066cae4dede2e16b65d11c2e2b12f9279351270",
+        "SemanticColors.colorError": "9ee226a90f2326e7bc75203a7c0f4a75b0d637b9",
+        "SemanticColors.colorWarning": "ccb19e70a4c408173d110f76eb9b03769820e68f",
+        "SemanticColors.colorSelected": "bf722a94574d5f8183893bb175977771d2992b3f",
+        "SemanticColors.colorTransparent": "d7fa0bdea33cac7a5f2a620582c53290f5acd909",
+        "SemanticColors.Seconadary.colorSecondary": "36f024d038cac0ce7fecf5c41ebf81d461b05a6e",
+        "SemanticColors.Seconadary.colorSecondaryHovered": "663255d4bdd50ed43a974f88f4d7a5e2213c23ef",
+        "SemanticColors.Seconadary.colorSecondaryPressed": "37f717c50c2953239a70a09d399d7a720f903cb6",
+        "SemanticColors.Seconadary.colorSecondaryActivated": "8b90636bd07c5a0b61783a515d6ba6174f3ac9fe",
+        "SemanticColors.Primary.colorPrimary": "c33c47fcdb1a04ab0852569f65fad5d46e4e3b07",
+        "SemanticColors.Primary.colorPrimaryHovered": "5680ccf79c046c75d498e87c4ddd3855ea756430",
+        "SemanticColors.Primary.colorPrimaryPressed": "73d3341dc9ce655facf183094ae57cf41dded47d",
+        "SemanticColors.Primary.colorPrimaryActivated": "a5126cc2e19ecda514f45e484d64b5878ae1af06",
+        "SemanticColors.Action.colorAction": "b15abdc8d324e8fe678844083d4a029e5ef036ab",
+        "SemanticColors.Action.colorActionHovered": "c857daaf1aa2d75b08202effc29c5a1d887caebe",
+        "SemanticColors.Action.colorActionPressed": "ec16cb76d8d008a827091b40a84ab317a62b3b6f",
+        "SemanticColors.Destructive.colorDestructive": "bc871182196d7f16bc6af196ba4204458c549bb6",
+        "SemanticColors.Destructive.colorDestructiveHovered": "78d53444c37abea732358a8a015b5502d75e0ef9",
+        "SemanticColors.Destructive.colorDestructivePressed": "835e449d94e2ea43ecc3f8f9226e106711d13a0b",
+        "SemanticColors.colorInactive": "7a67085e183ee7d6b81259b5cd416161ec148b78",
+        "SemanticColors.colorDisabled": "f9d3b7bb007b2c731eca4f6bbd47f539443cd334",
+        "SemanticColors.colorFocused": "83938c5c1f2c21cdd2f1c3180fb951d3cffd122e",
+        "SemanticColors.colorUnfocused": "eb9f2b104991d021b80e0cbd9a9ad195fef6e65a",
+        "SemanticColors.colorPressed": "5b2ee5a91ec43c250f021bb9ba8aeaea7ea306a8",
+        "SemanticColors.CBB Sunspot": "648237f1f26d936f8265356ca677591202c92d46",
+        "OpacityColors.colorBackground - 50%": "0a3192e53f3a3e6fed57e06f323f27a54e44d136",
+        "OpacityColors.colorSuccess-20%": "5faf3c7f21036f61e07e41b4da82a92a7232c14f",
+        "OpacityColors.colorSuccess-10%": "b5f730b700169893491bb53a64563556580411c5",
+        "OpacityColors.colorError-20%": "02e06774d2be7bfa54733f40f79ae07fc1d312bb",
+        "OpacityColors.colorError-15%": "858b3ec3e430a671df2c0010aee5b834f1ffef5a",
+        "OpacityColors.colorWarning-20%": "d2a44537e13dee54cac2bc767d48c8d8aca3fd55",
+        "OpacityColors.colorWarning-10%": "0ea77ad30989c08151e37b6199dcb960ed07e53b",
+        "OpacityColors.colorBackground-70%": "3dc09b0a4cbfaeb8f97e56bb6d4b055ef213a36b",
+        "OpacityColors.colorForeground-3%": "bc433853f34db6a4274264474f2f52cf0b837c7c",
+        "OpacityColors.colorForeground-5%": "e5e0f35caba68986332309e34661aaa8f1c0ee44",
+        "OpacityColors.colorForeground-10%": "435ffbc2c53974d16021647e5e5ed542e055924e",
+        "OpacityColors.colorForeground-14%": "5fd714c925ee52b54af469298505930a299bb21c",
+        "OpacityColors.colorForeground-16%": "66dea8a214ed55fc78764af3ca860b30329fd632",
+        "OpacityColors.colorForeground-18%": "9f628fa048644bcd7addee3d8711c81185172f8d",
+        "OpacityColors.colorForeground-20%": "775b5a6af524e6a0f0efd369fb784eff2295f61f",
+        "OpacityColors.colorForeground-24%": "484a783bc9bb5ac096982106f7bfa27758d037c2",
+        "OpacityColors.colorForeground-25%": "48216631cd4d1331c59e456b5ad91fab67dc1295",
+        "OpacityColors.colorForeground-50%": "9e62149cdbe8949cb66859c3f5ceed96dd5a3d68",
+        "OpacityColors.colorOnDefault-50%": "bd6a5eccf48eedeff2acfc6ac6c2e112443f9ddb",
+        "OpacityColors.colorSecondary-60%": "7866df381bc416c07cef3564ef31a288136e63f8",
+        "OpacityColors.colorSecondary-35%": "f93f33d7cffd6961b70c3dd13eeefcf820898d73",
+        "OpacityColors.colorPrimary-80%": "762819f5c05315132b27041feb299af3ea20a4f9",
+        "OpacityColors.colorPrimary-20%": "3b3a636966aa22013a0aab649f66bf587045e6bc",
+        "OpacityColors.colorOnBackground-70%": "0327b965184fb4ea8b352ebcf850b3820e097f19",
+        "OpacityColors.colorOnDefault-32%": "a75e31190a5e3259dc40a5aeb8e63c2cf2cb0683",
+        "OpacityColors.colorOnDefault-36%": "eda847dbddf4ebae06166b23845a9bc347d13394",
+        "OpacityColors.colorOnDefault-40%": "ceab8ba51b51f793ccf0f06138938dfd7b90596a",
+        "OpacityColors.colorOnDefault-44%": "99fad30dac6683b8d983b148951d86ab5f2da913",
+        "OpacityColors.colorOnDefault-48%": "d231fd326afd41b4e777a1bf9ff369d2d4be6c41",
+        "OpacityColors.colorOnDefault-52%": "bb6dbeeba7522e85f1c346480321ecb1d67fe435",
+        "OpacityColors.colorOnDefault-56%": "dbdcbbfafac196374baa084c45fc47842aadb879",
+        "InkColors.colorCyan": "fc0e322ecbee009b066cd0a379105669a3816ad0",
+        "InkColors.colorMagenta": "3c6281b31d8cbb213af73883c185e8bbd9e573be",
+        "InkColors.colorYellow": "3b7ddc0f53201a2fea797c602d78d26689992c5c",
+        "InkColors.colorBlack": "3b1cba16a64ab84c784244f88ade19e283e1ac27",
+        "InkColors.colorLightCyan": "d50ef200b077f07e12b6ddd33c3e2c4ce7c33afb",
+        "InkColors.colorLightMagenta": "37301204f50f247856dea5ac00f32cab14617f44",
+        "InkColors.colorRed": "f5f7f037fb508e600bb3dc7f619e29b400eaf658",
+        "InkColors.colorChromaticRed": "dc6994b41daeae386dea4035dd17bda569907940",
+        "InkColors.colorBlue": "10ca8e3e6e905e8d27f202f20e5d4f320abfb8c9",
+        "InkColors.colorChromaticBlue": "611ddf571086c98f13d5b5426e8ca8c39d452c62",
+        "InkColors.colorGreen": "7f440b24c50c50683939f96e2076f45922b54206",
+        "InkColors.colorChromaticGreen": "f5a0b1c3aaef637b4ba4da5290af426f7cd00f07",
+        "InkColors.colorOrange": "f9c5d30c4cf4d9110492faa2932b4a30fef7a176",
+        "InkColors.colorViolet": "274cfe66efe00ddc0987f76a9f38dae55227e922",
+        "InkColors.colorPhotoBlack": "db6a23a72bc15201c5b84173bcc19007c5100f38",
+        "InkColors.colorMatteBlack": "0111bae7bf98412883cefc4f6e3ce943fc38333b",
+        "InkColors.colorDarkGray": "15d769f449e43d0de6a73713aa0fb95e9bec1248",
+        "InkColors.colorGray": "aeddad54c6ce842bb87ffa30af34f2a458c4880b",
+        "InkColors.colorMediumGray": "c45a624de402c50a603379e88f7a82ac9e087793",
+        "InkColors.colorLightGray": "a4d8cbe4b79ca413a103619a0e10fcd2334282c9",
+        "InkColors.colorLightLightGray": "64efdfe71ade8d4d9e3c4a33fad9b0864c0f791e",
+        "InkColors.colorWhite": "d7122566385f5b601c1e810833218eff9786768a",
+        "InkColors.Functional.colorGlossEnhancer": "608d27e0cf166f9d72f09adaf03712fc18a1e9fa",
+        "InkColors.Functional.colorOptimizer": "be49e16f006d917486c49b0e823a5685c070b5d7",
+        "InkColors.Functional.colorOverCoat": "79a8302067696fe60ed184ddfc7f6bfdbc055c72",
+        "InkColors.Functional.colorBluePrint1": "7e85049a27bb661095579aafe089127793e4013a",
+        "InkColors.Functional.colorBluePrint2": "57dc2adefe7c5d82ada562b71c7812d0fb8dc8cc",
+        "InkColors.Functional.colorScratchAgent": "79f6ff288e35c1fd00e277f98dff521e9f847f58",
+        "InkColors.Functional.colorOrganicPhotoConductor": "20ca34d4143a67ac482744fa7c202197346bc9d7",
+        "AppColors.colorSystem": "681952ff74d04b61e165cf3c0025c966006b8755",
+        "AppColors.colorCopy": "8431158da10d80579dcfa09d9605941360a50125",
+        "AppColors.colorScan": "02a2147948efb9f33489a6f9b060c7de1b42e546",
+        "AppColors.colorPrint": "acf4418cb04f7a6dea55dcf46c003d0ce3cf0329",
+        "AppColors.colorFax": "e9e4716f95897db37e17632cc658be8aaf8252ce",
+        "AppColors.colorSupplies": "facc5b87d390ba40cc4a19efb4134e8aac6a528c",
+        "AppColors.colorContacts": "878071a6f7dd7738fd8fdc861154eb535746b217",
+        "AppColors.colorSettings": "99ac65af97b5e09eb53caaf5d33ab9f41936dee2",
+        "AppColors.colorJobs": "2c6d531baf6ae9cbec7bfc590350f0f86a12b165",
+        "AppColors.colorTools": "ce968fdd9d2e01cc0b4dd8c782a8be50c044c7a3",
+        "AppColors.colorQuicksets": "6d5fc66430856267111ee2c343056a6ff5195143",
+        "AppColors.colorThirdpartyApps": "b3d0955e48754bf4eab549e97a50f035b4ad86d6",
+        "Neutrals.NeutralA.neutral000": "ca8afda5066c515546cee9e5d9df9f738237e015",
+        "Neutrals.NeutralA.neutral002": "a532ea53ac89fc7f5ec8853c5db849a557d2b896",
+        "Neutrals.NeutralA.neutral004": "0a0e334ffd15cc20132c1cd6cff83e14b3e90d1e",
+        "Neutrals.NeutralA.neutral006": "0f6fd5b47a777d112ee0cd9b5474239ba759474b",
+        "Neutrals.NeutralA.neutral008": "d1c148557d4629c249d28b629db039515ceecec4",
+        "Neutrals.NeutralA.neutral010": "a4d9d72d7a1bde910090ef53769601c8f044d5ed",
+        "Neutrals.NeutralA.neutral012": "80bfc326c7ed44556a400daaa404356360bb193d",
+        "Neutrals.NeutralA.neutral014": "0dbaf2e7c419787f9e5276f0a7aeac8e932a9df2",
+        "Neutrals.NeutralA.neutral016": "0d30f11f7081a8bb0969973c92a3e7c65731fa9c",
+        "Neutrals.NeutralA.neutral018": "18728750e1fcb2540425e51b72e58972bbac1104",
+        "Neutrals.NeutralA.neutral020": "fd851e9105781abb94b9e13b5f0f7c74b185b8ad",
+        "Neutrals.NeutralA.neutral022": "1be27e85eb1967184ed25f83e302490400140cca",
+        "Neutrals.NeutralA.neutral024": "947b8ee71db90a4a44d072f6b885c0653e8ef3a9",
+        "Neutrals.NeutralA.neutral026": "483b0dd888366f868ec26ac88d4079f29259bc7f",
+        "Neutrals.NeutralA.neutral028": "682544f1c4454e2c0ac36e305e0253cfbb59d3ab",
+        "Neutrals.NeutralA.neutral030": "dd6d078f3882880192332d117b08cc72c425e6fc",
+        "Neutrals.NeutralA.neutral032": "681e6d0861f19454448f6c86b60ed8242f2183a0",
+        "Neutrals.NeutralA.neutral034": "a36bdd28164c035a2b3299243c64783ff2fcfebe",
+        "Neutrals.NeutralA.neutral036": "c1bd8afe1f972c6b241efc5720f2823dca175661",
+        "Neutrals.NeutralA.neutral038": "a9831a598cd0dee15175f2843385e27a6b92ec9d",
+        "Neutrals.NeutralA.neutral040": "d4dc29f1f6fc4d58a097428ea37a1a00ccb84783",
+        "Neutrals.NeutralA.neutral042": "347fd7ac47cec3cfa3e0d87ccee113b6e218ccd1",
+        "Neutrals.NeutralA.neutral044": "e8186c2bf89dddd09d3564e182740a204f16c904",
+        "Neutrals.NeutralA.neutral046": "4910c020d2bbf2c934a9a3b6b1c9a77d9106d082",
+        "Neutrals.NeutralA.neutral048": "02846caacd384318c6444eb2f0d9861bbc24928b",
+        "Neutrals.NeutralA.neutral050": "a397c496ba64458ffeabaeba33a7b9cbe16a4d31",
+        "Neutrals.NeutralA.neutral052": "657206942de5f154c1bdbe747066c15895bebf89",
+        "Neutrals.NeutralA.neutral054": "0559107fccd3b4b0043b5c6cd1aa642c749e3c81",
+        "Neutrals.NeutralA.neutral056": "05f18d90b6d079bdeb2a0c967d3d954465890fe4",
+        "Neutrals.NeutralA.neutral058": "27c8073958ea78f170ad22e47071e45af5ab5c27",
+        "Neutrals.NeutralA.neutral060": "e9c0794b21d16fd19e67d31f52efe7fc367a4cde",
+        "Neutrals.NeutralA.neutral062": "5425780a1f40c7d88df060141f380d76a74a26c0",
+        "Neutrals.NeutralA.neutral064": "325f6e9a022c17697da6c3ccde98d3f2f1b7e19c",
+        "Neutrals.NeutralA.neutral066": "0c05ce87201060838c0f6385f63189736fc0f1b2",
+        "Neutrals.NeutralA.neutral068": "dbd676e809d85dae186aad0f3fc35055dae94d4c",
+        "Neutrals.NeutralA.neutral070": "9b2333919f74055de5169eb6f065501500399240",
+        "Neutrals.NeutralA.neutral072": "02ef5f425837a1935c03665f358f513087fa64a0",
+        "Neutrals.NeutralA.neutral074": "4aea984acab1be80ccdd03d118759e1159a037fd",
+        "Neutrals.NeutralA.neutral076": "52cc33a1f447a3bfd846e41840abbd8bb34cdf96",
+        "Neutrals.NeutralA.neutral078": "6195e87d9ebc0b2ce6d80956590599ec08d8a507",
+        "Neutrals.NeutralA.neutral080": "9a15d159121ee429ee684cde335c05d603aa32a0",
+        "Neutrals.NeutralA.neutral082": "40bf2939aa248b7ee20fae01d2e47de6751092f9",
+        "Neutrals.NeutralA.neutral084": "72667db6b0d15297625de09ec7208e42448cff18",
+        "Neutrals.NeutralA.neutral086": "d99ed6be59b5770c0184bffd032e5d744fe3f04f",
+        "Neutrals.NeutralA.neutral088": "4020ac5e26371273bbcc04aed36bdc507a7ecafd",
+        "Neutrals.NeutralA.neutral090": "7ae12319ee4caaec8e1b2bc101326bfae6e6e608",
+        "Neutrals.NeutralA.neutral092": "f9957af2f6c9e998f507024df6e630d9b81a29dc",
+        "Neutrals.NeutralA.neutral094": "746568c07aab05d82dc73646eed948f5afeee06d",
+        "Neutrals.NeutralA.neutral096": "c5a9df183cdb526dfb15532317ba176066c3038d",
+        "Neutrals.NeutralA.neutral098": "0822af1f9e9429432a64ba78dfbc4ef7e94c4c31",
+        "Neutrals.NeutralA.neutral100": "77e1ed4d96b1eca4efc60d93bbc8c187146ec42a",
+        "Neutrals.NeutralB.neutralB002": "a8f89e23d5cdeb02cfda05690ecdfdf9e9ccd333",
+        "Neutrals.NeutralB.neutralB004": "8c0d5e289d9073c1dd0d03d848d7eab2e25e034e",
+        "Neutrals.NeutralB.neutralB006": "920d8b655dabd9d4c00e73fc7a71aff1b6b48e6c",
+        "rem.globalRem": "e0c3ee065ee6d46c6980d2de2c429df9fa2fc56d",
+        "sp0": "234214aea6ead6b00f83c51b685ccb81597ef2c1",
+        "sp1": "77d4290e206ae2db80c6a0bc59715f91c376d833",
+        "sp2": "e02ee89e6614fbcb73fe82750230312d351cc46b",
+        "sp3": "2d7bd0f19a4ea67fb62fea6711b178562a62cfac",
+        "sp4": "b0c99b4acc36d3b8e79c1ee4144b911063e54f8a",
+        "sp5": "f4e8806428cd1fee27eb3cffb83bbfca3503e6d1",
+        "multiple spacing.2sp4": "3999bfd524d95eb74a08922c8ac5cb4b257183af",
+        "multiple spacing.4sp1": "f94b2e1d7b0321be62277eaf50546e55c49d8170",
+        "multiple spacing.08rem": "6d6ac7c48bdef1aeb129aec9af5e73e182eb42b9",
+        "multiple spacing.015rem": "1b2d613d5f20aede28dbb97aa9c5bc3a25254df6",
+        "multiple spacing.02rem": "b78a5bf75e49d33d277e978e77aac77671a3b49d",
+        "multiple spacing.025rem": "d36983c99ce5f949a1f2ed383b12e872a23388a9",
+        "multiple spacing.03rem": "b441320c0a3c209d55a64fd1557889fa2da74391",
+        "multiple spacing.4rem": "b3ebc8017788f5bb09461d900a56feb2273fee31",
+        "multiple spacing.045rem": "c7b5a0735538cfe1049500428782311ed05478f7",
+        "multiple spacing.083rem": "5618c9c7da22b0b18632c32b124d70b027da59c9",
+        "corner radius.cr0": "72c650e4cb3277d1490841e785c1c0080a8cdbfc",
+        "corner radius.cr1": "5a7bad9e89943f087e4343dc2a21729579cc10e8",
+        "corner radius.cr2": "9785b2f07b25b901d1c8a72bea5e762d1fd29aab",
+        "corner radius.cr3": "f885d59c436e762bd6796a204989f2f1cf386497",
+        "corner radius.cr4": "24e38a003d3e86462ffeb3ab36d87785d22230e1",
+        "corner radius.cr5": "4582c29c92cd4b5a5e808c00ef6df714a2619b63",
+        "corner radius.crb": "8d5f7ced9973bb19cce9bf7ec4257547e7b0dc9f",
+        "sizes.1 rem": "de0ce4329dcd78283579acc7b86f5382c0005593",
+        "sizes.2 rem": "19093b54859314fc736844a1d48b12e37b26fa21",
+        "sizes.3 rem": "2b36dfde25721b1905645ac311a6271f694ee105",
+        "sizes.4 rem": "4fdd534903f42f0903d999860acd592208486310",
+        "sizes.5 rem": "83fd37ca0d41cb26bf70d3483d92f70f012bfe7c",
+        "sizes.6 rem": "1d3116c51f703cd5cbedcd84cbac33a15e1dd3cf",
+        "sizes.7 rem": "38542bb93518997ebced886fe8d5287f1b433aca",
+        "sizes.8 rem": "8257f1e2ae64fb0ef820454df1ae167208fa7a55",
+        "sizes.9 rem": "c734f9708f2e79c8e4cd43901b7669626d6ee5d2",
+        "sizes.icon.header.3 rem": "5802fef3e1142c6542bc111a3c5d0e293dbe407f",
+        "sizes.icon.textimage.3 rem - textimage": "a2b351896963f96a66fa277f57a626d1db25ea16",
+        "sizes.icon.textimage.6 rem - image container": "69b05fc8dc5f851ee03541278009ea77c531ab5f",
+        "sizes.icon.namevalue.4,2 rem - icon group default": "84414ce58c1bb87088d67f31f3095d59bac60ee5",
+        "sizes.icon.namevalue.5,6 rem - icon group prominent": "2ec6f4c4f1c977dbd03df49db644f8bde762307b",
+        "sizes.icon.namevalue.2,1 rem - name&value": "4560106fa65d24f9ec61530e02277a21623fb8a2",
+        "sizes.icon.button.2,1 rem - auxuilary": "d8e0e264572af9e4a6b814ed392b13cb3582ea2f",
+        "sizes.icon.button.2,5 rem - variation 1 & only icon": "4b416fc158cc854457f2b5d53f95179d6559d847",
+        "sizes.icon.supplies.2,1 rem - all": "2783b46ff85d1856464ab4aac9a703746332bc96",
+        "sizes.icon.row.2,5 rem - all": "75d36c6065de126787e835281a6dbf8aac20e284",
+        "sizes.icon.status box.2,5 rem - status & extra": "822fd0eee965235d50771cc75f4d84ed42c4e649",
+        "sizes.icon.tab system.2,5 rem - all": "258ec98cff86600e7fafe8ae1054ab16023bcd34",
+        "sizes.icon.text field.2,5 rem - all": "da1297c1a7e352dbc516174327588a0c729767d7",
+        "sizes.icon.card.2,5 rem - arrow": "04547d6b4826a676a63b8a482a2397b709fbeee1",
+        "sizes.icon.keyboard.2,5 rem - tabs": "4688b4fabc6027dc3844beb9931a3d9aaa9229cc",
+        "sizes.icon.keyboard.2 rem - keys": "12bc8bf7bd82121874b6ea932660aa95ccb7a1f4",
+        "sizes.icon.combobox.2,5 rem - all": "496febb5b7f00665ef2130586bcff97674aa70ec",
+        "sizes.icon.cbb sunspot.4,6 rem": "a52211f31567a267a9d68b932f751fb52ce33e68",
+        "sizes.other-sizes.2point7rem": "1897b022b374a859088ac250c73e91c207a272f8",
+        "sizes.other-sizes.3,5 rem": "5b8e358122f23d02f5921ad50950f8435c0029a2",
+        "sizes.other-sizes.2point5rem": "35ce33316c80a25fac35c30c8e1c8c5ff216763b",
+        "sizes.other-sizes.1point7rem": "be1f05168a2b1b360dbc4a5f80caa08b0d9f77cb",
+        "sizes.other-sizes.1point8rem": "b0fa393d24b218e845ed77e4cb0c639bcb3eebdb",
+        "sizes.other-sizes.5point6rem": "28a018057d596678cc88ed50a4750008bcc2e9d6",
+        "sizes.other-sizes.5,5 rem": "e32688fa583d6405428ddf40e9af80c43ff6a165",
+        "sizes.other-sizes.025rem": "e85e8ae11ec6f69ef5aed44fb30e01975b8a2eaf",
+        "sizes.other-sizes.02rem": "fdbb6671ad0dff901dad2873c13950c39d72c67e",
+        "sizes.other-sizes.04rem": "bb16eeab3a86bad2f865aeb7189ea3291fa53654",
+        "sizes.other-sizes.03rem": "ddb9ffa1253dca76f164aca86c16c26ad8bcf086",
+        "sizes.other-sizes.07rem": "9db8c83d3db5f78c784220bdf46b45f147b494a6",
+        "sizes.other-sizes.075rem": "1de4d03dcfc78fa29fcd68e99ebfaeec8461889a",
+        "1px": "8ee955601a6ff3a2ae6ef70d877f5e1c6714aff7",
+        "2px": "f565955527a1a1d3acf8511bca51a95110f4668d"
+      },
+      "group": "Light"
+    },
+    {
+      "id": "4f7bffac23b3e62f51ae8f45b92714fa6949feaf",
+      "name": "L",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Font/Simplified": "enabled",
+        "Color Theme/light": "source",
+        "Rem/ 15 px (L)": "source"
+      },
+      "group": "Light"
+    },
+    {
+      "id": "9e1aa67ed548fe63edfc56a83953d5418764b12a",
+      "name": "M",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Font/Simplified": "enabled",
+        "Rem/ 14 px (M)": "source",
+        "Color Theme/light": "source"
+      },
+      "group": "Light"
+    },
+    {
+      "id": "26f4845aff916d976e2d2b8d4a810f09cf6e23b5",
+      "name": "M",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Color Theme/dark": "enabled",
+        "Font/Simplified": "enabled",
+        "Rem/ 14 px (M)": "source"
+      },
+      "group": "Dark"
+    },
+    {
+      "id": "4e5e532bf91bcf913a846590d0f180457ca73630",
+      "name": "L",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Color Theme/dark": "enabled",
+        "Rem/ 14 px (M)": "source",
+        "Rem/ 15 px (L)": "source",
+        "Font/Simplified": "enabled"
+      },
+      "group": "Dark"
+    },
+    {
+      "id": "4d8bfd62cca742024ae40121e2a3179f6f342037",
+      "name": "XL",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Color Theme/dark": "enabled",
+        "Rem/ 14 px (M)": "source",
+        "Rem/ 15 px (L)": "source",
+        "Font/Simplified": "enabled"
+      },
+      "group": "Dark"
+    },
+    {
+      "id": "6e0afc70b776c9efa70331cd05174e4ada53685a",
+      "name": "S/XS",
+      "$figmaStyleReferences": {},
+      "selectedTokenSets": {
+        "Color Theme/dark": "enabled",
+        "Rem/11 px (S-XS)": "source",
+        "Font/Simplified": "enabled"
+      },
+      "group": "Light"
+    }
+  ],
   "$metadata": {
     "tokenSetOrder": [
       "Color Theme/dark",
       "Color Theme/light",
       "Rem/11 px (S-XS)",
+      "Rem/ 14 px (M)",
+      "Rem/ 15 px (L)",
+      "Rem/12 px (XL)",
       "Font/Simplified",
       "Font/Forma"
     ]
