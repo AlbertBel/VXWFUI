@@ -4512,10 +4512,10 @@
       "type": "borderWidth"
     }
   },
-  "Rem/12 px (XL)": {
+  "Rem/17 px (XL)": {
     "rem": {
       "globalRem": {
-        "value": "12",
+        "value": "17",
         "type": "sizing"
       }
     },
@@ -5154,7 +5154,8 @@
       "selectedTokenSets": {
         "Color Theme/dark": "enabled",
         "Rem/11 px (S-XS)": "enabled",
-        "Font/Simplified": "enabled"
+        "Font/Simplified": "enabled",
+        "Rem/17 px (XL)": "disabled"
       },
       "$figmaCollectionId": "VariableCollectionId:1592:2621",
       "$figmaModeId": "1592:0",
@@ -5403,8 +5404,8 @@
       "$figmaStyleReferences": {},
       "selectedTokenSets": {
         "Font/Simplified": "enabled",
-        "Rem/12 px (XL)": "source",
-        "Color Theme/light": "source"
+        "Color Theme/light": "source",
+        "Rem/17 px (XL)": "source"
       },
       "$figmaCollectionId": "VariableCollectionId:1592:2857",
       "$figmaModeId": "1592:1",
@@ -5654,7 +5655,8 @@
       "selectedTokenSets": {
         "Font/Simplified": "enabled",
         "Color Theme/light": "source",
-        "Rem/ 15 px (L)": "source"
+        "Rem/ 15 px (L)": "source",
+        "Rem/17 px (XL)": "disabled"
       },
       "group": "Light"
     },
@@ -5665,7 +5667,8 @@
       "selectedTokenSets": {
         "Font/Simplified": "enabled",
         "Rem/ 14 px (M)": "source",
-        "Color Theme/light": "source"
+        "Color Theme/light": "source",
+        "Rem/17 px (XL)": "disabled"
       },
       "group": "Light"
     },
@@ -5676,7 +5679,8 @@
       "selectedTokenSets": {
         "Color Theme/dark": "enabled",
         "Font/Simplified": "enabled",
-        "Rem/ 14 px (M)": "source"
+        "Rem/ 14 px (M)": "source",
+        "Rem/17 px (XL)": "disabled"
       },
       "group": "Dark"
     },
@@ -5688,7 +5692,8 @@
         "Color Theme/dark": "enabled",
         "Rem/ 14 px (M)": "source",
         "Rem/ 15 px (L)": "source",
-        "Font/Simplified": "enabled"
+        "Font/Simplified": "enabled",
+        "Rem/17 px (XL)": "disabled"
       },
       "group": "Dark"
     },
@@ -5700,7 +5705,8 @@
         "Color Theme/dark": "enabled",
         "Rem/ 14 px (M)": "source",
         "Rem/ 15 px (L)": "source",
-        "Font/Simplified": "enabled"
+        "Font/Simplified": "enabled",
+        "Rem/17 px (XL)": "disabled"
       },
       "group": "Dark"
     },
@@ -5711,7 +5717,8 @@
       "selectedTokenSets": {
         "Color Theme/dark": "enabled",
         "Rem/11 px (S-XS)": "source",
-        "Font/Simplified": "enabled"
+        "Font/Simplified": "enabled",
+        "Rem/17 px (XL)": "disabled"
       },
       "group": "Light"
     }
@@ -5723,7 +5730,7 @@
       "Rem/11 px (S-XS)",
       "Rem/ 14 px (M)",
       "Rem/ 15 px (L)",
-      "Rem/12 px (XL)",
+      "Rem/17 px (XL)",
       "Font/Simplified",
       "Font/Forma"
     ]
