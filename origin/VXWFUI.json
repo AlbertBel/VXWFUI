@@ -3151,8 +3151,24 @@
             "value": "{rem.globalRem}*3",
             "type": "sizing"
           },
+          "4 rem - image container": {
+            "value": "{rem.globalRem}*4",
+            "type": "sizing"
+          },
           "6 rem - image container": {
             "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          },
+          "8 rem - image container": {
+            "value": "{rem.globalRem}*8",
+            "type": "sizing"
+          },
+          "10 rem - image container": {
+            "value": "{rem.globalRem}*10",
+            "type": "sizing"
+          },
+          "20 rem - image container": {
+            "value": "{rem.globalRem}*20",
             "type": "sizing"
           }
         },
@@ -3681,8 +3697,24 @@
             "value": "{rem.globalRem}*3",
             "type": "sizing"
           },
+          "4 rem - image container": {
+            "value": "{rem.globalRem}*4",
+            "type": "sizing"
+          },
           "6 rem - image container": {
             "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          },
+          "8 rem - image container": {
+            "value": "{rem.globalRem}*8",
+            "type": "sizing"
+          },
+          "10 rem - image container": {
+            "value": "{rem.globalRem}*10",
+            "type": "sizing"
+          },
+          "20 rem - image container": {
+            "value": "{rem.globalRem}*20",
             "type": "sizing"
           }
         },
@@ -4215,8 +4247,24 @@
             "value": "{rem.globalRem}*3",
             "type": "sizing"
           },
+          "4 rem - image container": {
+            "value": "{rem.globalRem}*4",
+            "type": "sizing"
+          },
           "6 rem - image container": {
             "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          },
+          "8 rem - image container": {
+            "value": "{rem.globalRem}*8",
+            "type": "sizing"
+          },
+          "10 rem - image container": {
+            "value": "{rem.globalRem}*10",
+            "type": "sizing"
+          },
+          "20 rem - image container": {
+            "value": "{rem.globalRem}*20",
             "type": "sizing"
           }
         },
@@ -4737,8 +4785,24 @@
             "value": "{rem.globalRem}*3",
             "type": "sizing"
           },
+          "4 rem - image container": {
+            "value": "{rem.globalRem}*4",
+            "type": "sizing"
+          },
           "6 rem - image container": {
             "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          },
+          "8 rem - image container": {
+            "value": "{rem.globalRem}*8",
+            "type": "sizing"
+          },
+          "10 rem - image container": {
+            "value": "{rem.globalRem}*10",
+            "type": "sizing"
+          },
+          "20 rem - image container": {
+            "value": "{rem.globalRem}*20",
             "type": "sizing"
           }
         },
