@@ -4773,6 +4773,14 @@
         "value": "{rem.globalRem}*9",
         "type": "sizing"
       },
+      "10 rem": {
+        "value": "{rem.globalRem}*10",
+        "type": "sizing"
+      },
+      "16 rem": {
+        "value": "{rem.globalRem}*16",
+        "type": "sizing"
+      },
       "icon": {
         "header": {
           "3 rem": {
