@@ -3198,6 +3198,10 @@
           "2,5 rem - variation 1 & only icon": {
             "value": "{rem.globalRem}*2.5",
             "type": "sizing"
+          },
+          "1,5 rem - IconSupport": {
+            "value": "{rem.globalRem}*1.5",
+            "type": "sizing"
           }
         },
         "supplies": {
