@@ -3244,10 +3244,6 @@
           "2,5 rem - tabs": {
             "value": "{rem.globalRem}*2.5",
             "type": "sizing"
-          },
-          "2 rem - keys": {
-            "value": "{rem.globalRem}*2.5",
-            "type": "sizing"
           }
         },
         "combobox": {
@@ -3259,6 +3255,22 @@
         "cbb sunspot": {
           "4,6 rem": {
             "value": "{rem.globalRem}*4.6",
+            "type": "sizing"
+          }
+        }
+      },
+      "key": {
+        "keyboard": {
+          "2,4 rem - Charector keys width - XS": {
+            "value": "{rem.globalRem}*2.45451",
+            "type": "sizing"
+          },
+          "5,2 rem - Charector 2keys width - XS": {
+            "value": "{rem.globalRem}*5.2727",
+            "type": "sizing"
+          },
+          "3,8 rem - Charector keys hight - XS": {
+            "value": "{rem.globalRem}*3.8182",
             "type": "sizing"
           }
         }
@@ -5499,7 +5511,6 @@
         "sizes.icon.tab system.2,5 rem - all": "e72fad7780788caeb2c86eb084cf5bd15f1009e9",
         "sizes.icon.text field.2,5 rem - all": "d5c43ea495961ed7dbbff302eb257c299d131549",
         "sizes.icon.keyboard.2,5 rem - tabs": "5745f3593f923f5f61e951f6e240870b8f3d28ea",
-        "sizes.icon.keyboard.2 rem - keys": "fdd3acd98ec08391cca86949442e1b6d5552e8b1",
         "sizes.icon.combobox.2,5 rem - all": "4e445518a9f624b7d5f91e54a7b08b09d4c7166b",
         "sizes.icon.cbb sunspot.4,6 rem": "f737fc8c3deee6c9be60652cc8cbd539fa83d138",
         "sizes.other-sizes.2point7rem": "f09fe1279cebe962b31a69ad9bddedbc8d4beaef",
@@ -5517,7 +5528,8 @@
         "sizes.other-sizes.075rem": "0361856023cb3250ee401d1eec669c447201a044",
         "1px": "ad9bdf8e3d642af24b873464a534df9fd8efba9d",
         "2px": "11273cf28508121bd08dce8c7de5bccbb233d19e",
-        "sizes.icon.card.2,5 rem - chevron": "11169bad3739509708605d184d1baa8fa21f31cd"
+        "sizes.icon.card.2,5 rem - chevron": "11169bad3739509708605d184d1baa8fa21f31cd",
+        "sizes.key.keyboard.2,4 rem - Charector keys width - XS": "fdd3acd98ec08391cca86949442e1b6d5552e8b1"
       },
       "group": "Dark"
     },
@@ -5749,7 +5761,6 @@
         "sizes.icon.tab system.2,5 rem - all": "258ec98cff86600e7fafe8ae1054ab16023bcd34",
         "sizes.icon.text field.2,5 rem - all": "da1297c1a7e352dbc516174327588a0c729767d7",
         "sizes.icon.keyboard.2,5 rem - tabs": "4688b4fabc6027dc3844beb9931a3d9aaa9229cc",
-        "sizes.icon.keyboard.2 rem - keys": "12bc8bf7bd82121874b6ea932660aa95ccb7a1f4",
         "sizes.icon.combobox.2,5 rem - all": "496febb5b7f00665ef2130586bcff97674aa70ec",
         "sizes.icon.cbb sunspot.4,6 rem": "a52211f31567a267a9d68b932f751fb52ce33e68",
         "sizes.other-sizes.2point7rem": "1897b022b374a859088ac250c73e91c207a272f8",
@@ -5767,7 +5778,8 @@
         "sizes.other-sizes.075rem": "1de4d03dcfc78fa29fcd68e99ebfaeec8461889a",
         "1px": "8ee955601a6ff3a2ae6ef70d877f5e1c6714aff7",
         "2px": "f565955527a1a1d3acf8511bca51a95110f4668d",
-        "sizes.icon.card.2,5 rem - chevron": "04547d6b4826a676a63b8a482a2397b709fbeee1"
+        "sizes.icon.card.2,5 rem - chevron": "04547d6b4826a676a63b8a482a2397b709fbeee1",
+        "sizes.key.keyboard.2,4 rem - Charector keys width - XS": "12bc8bf7bd82121874b6ea932660aa95ccb7a1f4"
       },
       "group": "Light"
     },
