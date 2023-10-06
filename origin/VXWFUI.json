@@ -3143,6 +3143,10 @@
         "value": "{rem.globalRem}*20",
         "type": "sizing"
       },
+      "27 rem": {
+        "value": "{rem.globalRem}*27",
+        "type": "sizing"
+      },
       "icon": {
         "header": {
           "3 rem": {
@@ -3197,6 +3201,10 @@
           },
           "2,5 rem - variation 1 & only icon": {
             "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          },
+          "2,8 rem - variation 1 & only icon": {
+            "value": "{rem.globalRem}*2.8",
             "type": "sizing"
           },
           "1,5 rem - IconSupport": {
@@ -3709,6 +3717,10 @@
         "value": "{rem.globalRem}*20",
         "type": "sizing"
       },
+      "27 rem": {
+        "value": "{rem.globalRem}*27",
+        "type": "sizing"
+      },
       "icon": {
         "header": {
           "3 rem": {
@@ -3763,6 +3775,10 @@
           },
           "2,5 rem - variation 1 & only icon": {
             "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          },
+          "2,8 rem - variation 1 & only icon": {
+            "value": "{rem.globalRem}*2.8",
             "type": "sizing"
           }
         },
@@ -4263,6 +4279,10 @@
         "value": "{rem.globalRem}*20",
         "type": "sizing"
       },
+      "27 rem": {
+        "value": "{rem.globalRem}*27",
+        "type": "sizing"
+      },
       "icon": {
         "header": {
           "3 rem": {
@@ -4317,6 +4337,10 @@
           },
           "2,5 rem - variation 1 & only icon": {
             "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          },
+          "2,8 rem - variation 1 & only icon": {
+            "value": "{rem.globalRem}*2.8",
             "type": "sizing"
           }
         },
@@ -4813,6 +4837,10 @@
         "value": "{rem.globalRem}*20",
         "type": "sizing"
       },
+      "27 rem": {
+        "value": "{rem.globalRem}*27",
+        "type": "sizing"
+      },
       "icon": {
         "header": {
           "3 rem": {
@@ -4867,6 +4895,10 @@
           },
           "2,5 rem - variation 1 & only icon": {
             "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          },
+          "2,8 rem - variation 1 & only icon": {
+            "value": "{rem.globalRem}*2.8",
             "type": "sizing"
           }
         },
