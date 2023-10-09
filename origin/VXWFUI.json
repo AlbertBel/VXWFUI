@@ -2977,6 +2977,12 @@
       "value": "{rem.globalRem} * 1.5",
       "type": "spacing"
     },
+    "button spacing": {
+      " 0,59 Rem": {
+        "value": "{rem.globalRem} * 0.59",
+        "type": "spacing"
+      }
+    },
     "multiple spacing": {
       "2sp4": {
         "value": "{sp4} *2",
@@ -3555,6 +3561,12 @@
       "value": "{rem.globalRem} * 1.5",
       "type": "spacing"
     },
+    "button spacing": {
+      " 0,59 Rem": {
+        "value": "{rem.globalRem} * 0.59",
+        "type": "spacing"
+      }
+    },
     "multiple spacing": {
       "2sp4": {
         "value": "{sp4} *2",
@@ -4112,6 +4124,12 @@
     "sp5": {
       "value": "{rem.globalRem} * 1.5",
       "type": "spacing"
+    },
+    "button spacing": {
+      " 0,59 Rem": {
+        "value": "{rem.globalRem} * 0.59",
+        "type": "spacing"
+      }
     },
     "multiple spacing": {
       "2sp4": {
@@ -4674,6 +4692,12 @@
     "sp5": {
       "value": "{rem.globalRem} * 1.5",
       "type": "spacing"
+    },
+    "button spacing": {
+      " 0,59 Rem": {
+        "value": "{rem.globalRem} * 0.59",
+        "type": "spacing"
+      }
     },
     "multiple spacing": {
       "2sp4": {
