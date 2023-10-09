@@ -2981,6 +2981,10 @@
       " 0,59 Rem": {
         "value": "{rem.globalRem} * 0.59",
         "type": "spacing"
+      },
+      " 0,31 Rem - Auxiliary": {
+        "value": "{rem.globalRem} * 0.31",
+        "type": "spacing"
       }
     },
     "multiple spacing": {
@@ -3565,6 +3569,10 @@
       " 0,59 Rem": {
         "value": "{rem.globalRem} * 0.59",
         "type": "spacing"
+      },
+      " 0,31 Rem - Auxiliary": {
+        "value": "{rem.globalRem} * 0.31",
+        "type": "spacing"
       }
     },
     "multiple spacing": {
@@ -4128,6 +4136,10 @@
     "button spacing": {
       " 0,59 Rem": {
         "value": "{rem.globalRem} * 0.59",
+        "type": "spacing"
+      },
+      " 0,31 Rem - Auxiliary": {
+        "value": "{rem.globalRem} * 0.31",
         "type": "spacing"
       }
     },
@@ -4696,6 +4708,10 @@
     "button spacing": {
       " 0,59 Rem": {
         "value": "{rem.globalRem} * 0.59",
+        "type": "spacing"
+      },
+      " 0,31 Rem - Auxiliary": {
+        "value": "{rem.globalRem} * 0.31",
         "type": "spacing"
       }
     },
