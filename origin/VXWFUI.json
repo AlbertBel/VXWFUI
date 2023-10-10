@@ -3145,6 +3145,10 @@
         "value": "{rem.globalRem}*10",
         "type": "sizing"
       },
+      "11 rem": {
+        "value": "{rem.globalRem}*11",
+        "type": "sizing"
+      },
       "16 rem": {
         "value": "{rem.globalRem}*16",
         "type": "sizing"
@@ -3729,6 +3733,10 @@
         "value": "{rem.globalRem}*10",
         "type": "sizing"
       },
+      "11 rem": {
+        "value": "{rem.globalRem}*11",
+        "type": "sizing"
+      },
       "16 rem": {
         "value": "{rem.globalRem}*16",
         "type": "sizing"
@@ -4301,6 +4309,10 @@
         "value": "{rem.globalRem}*10",
         "type": "sizing"
       },
+      "11 rem": {
+        "value": "{rem.globalRem}*11",
+        "type": "sizing"
+      },
       "16 rem": {
         "value": "{rem.globalRem}*16",
         "type": "sizing"
@@ -4867,6 +4879,10 @@
       },
       "10 rem": {
         "value": "{rem.globalRem}*10",
+        "type": "sizing"
+      },
+      "11 rem": {
+        "value": "{rem.globalRem}*11",
         "type": "sizing"
       },
       "16 rem": {
