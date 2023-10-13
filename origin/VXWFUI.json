@@ -2977,11 +2977,21 @@
       "value": "{rem.globalRem} * 1.5",
       "type": "spacing"
     },
-    "button spacing": {
-      " 0,59 Rem": {
-        "value": "{rem.globalRem} * 0.59",
+    "launcher button spacing": {
+      " 1,18 Rem": {
+        "value": "{rem.globalRem} * 1.18",
         "type": "spacing"
       },
+      " 0,75 Rem": {
+        "value": "{rem.globalRem} * 0.75",
+        "type": "spacing"
+      },
+      " 0,27 Rem": {
+        "value": "{rem.globalRem} * 0.27",
+        "type": "spacing"
+      }
+    },
+    "button spacing": {
       " 0,31 Rem - Auxiliary": {
         "value": "{rem.globalRem} * 0.31",
         "type": "spacing"
@@ -3223,6 +3233,80 @@
           },
           "1,5 rem - IconSupport": {
             "value": "{rem.globalRem}*1.5",
+            "type": "sizing"
+          }
+        },
+        "launcherbutton": {
+          "6 rem - VisualsizeIcon": {
+            "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          },
+          " 3,46 rem - Adaptive VisualsizeIcon": {
+            "value": "{rem.globalRem}*3.46",
+            "type": "sizing"
+          },
+          "6,76 rem - VisualsizeIcon": {
+            "value": "{rem.globalRem}*6.76",
+            "type": "sizing"
+          },
+          "4 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4",
+            "type": "sizing"
+          },
+          "4,54 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.54",
+            "type": "sizing"
+          },
+          "4,27 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.27",
+            "type": "sizing"
+          },
+          "2,55 rem - Adaptive SizeMainIcon": {
+            "value": "{rem.globalRem}*2.55",
+            "type": "sizing"
+          },
+          "4,25 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.25",
+            "type": "sizing"
+          },
+          "1,8 rem - sizeSourceIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,6 rem - Adaptive sizeSourceIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "1,8 rem - sizeInstantActionIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,6 rem - Adaptive sizeInstantActionIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "1,8 rem - statusIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,8 rem - Adaptive statusIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "3 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          },
+          "1,9 rem - Adaptive sizeDestinationIcon": {
+            "value": "{rem.globalRem}*1.9",
+            "type": "sizing"
+          },
+          "3,054 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3.054",
+            "type": "sizing"
+          },
+          "3,3818 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3.3818",
             "type": "sizing"
           }
         },
@@ -3536,6 +3620,13 @@
     "2px": {
       "value": "2",
       "type": "borderWidth"
+    },
+    "ImageButtonHover": {
+      "value": {
+        "width": "{2px}",
+        "color": "{SemanticColors.Primary.colorPrimaryHovered}"
+      },
+      "type": "border"
     }
   },
   "Rem/ 14 px (M)": {
@@ -3568,6 +3659,20 @@
     "sp5": {
       "value": "{rem.globalRem} * 1.5",
       "type": "spacing"
+    },
+    "launcher button spacing": {
+      " 1,18 Rem": {
+        "value": "{rem.globalRem} * 1.18",
+        "type": "spacing"
+      },
+      " 0,75 Rem": {
+        "value": "{rem.globalRem} * 0.75",
+        "type": "spacing"
+      },
+      " 0,27 Rem": {
+        "value": "{rem.globalRem} * 0.27",
+        "type": "spacing"
+      }
     },
     "button spacing": {
       " 0,59 Rem": {
@@ -3807,6 +3912,80 @@
           },
           "2,8 rem - variation 1 & only icon": {
             "value": "{rem.globalRem}*2.8",
+            "type": "sizing"
+          }
+        },
+        "launcherbutton": {
+          "6 rem - VisualsizeIcon": {
+            "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          },
+          " 3,46 rem - Adaptive VisualsizeIcon": {
+            "value": "{rem.globalRem}*3.46",
+            "type": "sizing"
+          },
+          "6,76 rem - VisualsizeIcon": {
+            "value": "{rem.globalRem}*6.76",
+            "type": "sizing"
+          },
+          "4 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4",
+            "type": "sizing"
+          },
+          "4,54 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.54",
+            "type": "sizing"
+          },
+          "4,27 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.27",
+            "type": "sizing"
+          },
+          "2,55 rem - Adaptive SizeMainIcon": {
+            "value": "{rem.globalRem}*2.55",
+            "type": "sizing"
+          },
+          "4,25 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.25",
+            "type": "sizing"
+          },
+          "1,8 rem - sizeSourceIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,6 rem - Adaptive sizeSourceIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "1,8 rem - sizeInstantActionIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,6 rem - Adaptive sizeInstantActionIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "1,8 rem - statusIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,8 rem - Adaptive statusIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "3 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          },
+          "1,9 rem - Adaptive sizeDestinationIcon": {
+            "value": "{rem.globalRem}*1.9",
+            "type": "sizing"
+          },
+          "3,054 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3.054",
+            "type": "sizing"
+          },
+          "3,3818 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3.3818",
             "type": "sizing"
           }
         },
@@ -4141,6 +4320,20 @@
       "value": "{rem.globalRem} * 1.5",
       "type": "spacing"
     },
+    "launcher button spacing": {
+      " 1,18 Rem": {
+        "value": "{rem.globalRem} * 1.18",
+        "type": "spacing"
+      },
+      " 0,75 Rem": {
+        "value": "{rem.globalRem} * 0.75",
+        "type": "spacing"
+      },
+      " 0,27 Rem": {
+        "value": "{rem.globalRem} * 0.27",
+        "type": "spacing"
+      }
+    },
     "button spacing": {
       " 0,59 Rem": {
         "value": "{rem.globalRem} * 0.59",
@@ -4383,6 +4576,80 @@
           },
           "2,8 rem - variation 1 & only icon": {
             "value": "{rem.globalRem}*2.8",
+            "type": "sizing"
+          }
+        },
+        "launcherbutton": {
+          "6 rem - VisualsizeIcon": {
+            "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          },
+          " 3,46 rem - Adaptive VisualsizeIcon": {
+            "value": "{rem.globalRem}*3.46",
+            "type": "sizing"
+          },
+          "6,76 rem - VisualsizeIcon": {
+            "value": "{rem.globalRem}*6.76",
+            "type": "sizing"
+          },
+          "4 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4",
+            "type": "sizing"
+          },
+          "4,54 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.54",
+            "type": "sizing"
+          },
+          "4,27 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.27",
+            "type": "sizing"
+          },
+          "2,55 rem - Adaptive SizeMainIcon": {
+            "value": "{rem.globalRem}*2.55",
+            "type": "sizing"
+          },
+          "4,25 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.25",
+            "type": "sizing"
+          },
+          "1,8 rem - sizeSourceIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,6 rem - Adaptive sizeSourceIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "1,8 rem - sizeInstantActionIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,6 rem - Adaptive sizeInstantActionIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "1,8 rem - statusIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,8 rem - Adaptive statusIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "3 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          },
+          "1,9 rem - Adaptive sizeDestinationIcon": {
+            "value": "{rem.globalRem}*1.9",
+            "type": "sizing"
+          },
+          "3,054 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3.054",
+            "type": "sizing"
+          },
+          "3,3818 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3.3818",
             "type": "sizing"
           }
         },
@@ -4717,6 +4984,20 @@
       "value": "{rem.globalRem} * 1.5",
       "type": "spacing"
     },
+    "launcher button spacing": {
+      " 1,18 Rem": {
+        "value": "{rem.globalRem} * 1.18",
+        "type": "spacing"
+      },
+      " 0,75 Rem": {
+        "value": "{rem.globalRem} * 0.75",
+        "type": "spacing"
+      },
+      " 0,27 Rem": {
+        "value": "{rem.globalRem} * 0.27",
+        "type": "spacing"
+      }
+    },
     "button spacing": {
       " 0,59 Rem": {
         "value": "{rem.globalRem} * 0.59",
@@ -4955,6 +5236,80 @@
           },
           "2,8 rem - variation 1 & only icon": {
             "value": "{rem.globalRem}*2.8",
+            "type": "sizing"
+          }
+        },
+        "launcherbutton": {
+          "6 rem - VisualsizeIcon": {
+            "value": "{rem.globalRem}*6",
+            "type": "sizing"
+          },
+          " 3,46 rem - Adaptive VisualsizeIcon": {
+            "value": "{rem.globalRem}*3.46",
+            "type": "sizing"
+          },
+          "6,76 rem - VisualsizeIcon": {
+            "value": "{rem.globalRem}*6.76",
+            "type": "sizing"
+          },
+          "4 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4",
+            "type": "sizing"
+          },
+          "4,54 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.54",
+            "type": "sizing"
+          },
+          "4,27 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.27",
+            "type": "sizing"
+          },
+          "2,55 rem - Adaptive SizeMainIcon": {
+            "value": "{rem.globalRem}*2.55",
+            "type": "sizing"
+          },
+          "4,25 rem - SizeMainIcon": {
+            "value": "{rem.globalRem}*4.25",
+            "type": "sizing"
+          },
+          "1,8 rem - sizeSourceIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,6 rem - Adaptive sizeSourceIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "1,8 rem - sizeInstantActionIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,6 rem - Adaptive sizeInstantActionIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "1,8 rem - statusIcon": {
+            "value": "{rem.globalRem}*1.8",
+            "type": "sizing"
+          },
+          "1,8 rem - Adaptive statusIcon": {
+            "value": "{rem.globalRem}*1.6",
+            "type": "sizing"
+          },
+          "3 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          },
+          "1,9 rem - Adaptive sizeDestinationIcon": {
+            "value": "{rem.globalRem}*1.9",
+            "type": "sizing"
+          },
+          "3,054 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3.054",
+            "type": "sizing"
+          },
+          "3,3818 rem - sizeDestinationIcon": {
+            "value": "{rem.globalRem}*3.3818",
             "type": "sizing"
           }
         },
