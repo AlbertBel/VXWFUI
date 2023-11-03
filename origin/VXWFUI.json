@@ -4017,6 +4017,10 @@
           "2,5 rem - all": {
             "value": "{rem.globalRem}*2.5",
             "type": "sizing"
+          },
+          "2,7 rem": {
+            "value": "{rem.globalRem}*2.7",
+            "type": "sizing"
           }
         },
         "card": {
@@ -4099,6 +4103,10 @@
         },
         "075rem": {
           "value": "{rem.globalRem}*0.75",
+          "type": "sizing"
+        },
+        "1,5": {
+          "value": "{rem.globalRem}*1.5",
           "type": "sizing"
         }
       }
@@ -4765,6 +4773,14 @@
           "value": "{rem.globalRem}*0.75",
           "type": "sizing"
         }
+      },
+      "other-sizes 1,5 rem": {
+        "value": "{rem.globalRem}*1.5",
+        "type": "sizing"
+      },
+      "other-sizes 2,7": {
+        "value": "{rem.globalRem}*2.7",
+        "type": "sizing"
       }
     },
     "background styles": {
@@ -5423,6 +5439,14 @@
         },
         "075rem": {
           "value": "{rem.globalRem}*0.75",
+          "type": "sizing"
+        },
+        "2,7rem": {
+          "value": "{rem.globalRem}*2.7",
+          "type": "sizing"
+        },
+        "1,5 rem": {
+          "value": "{rem.globalRem}*1.5",
           "type": "sizing"
         }
       }
