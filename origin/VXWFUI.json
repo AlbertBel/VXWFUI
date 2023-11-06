@@ -3143,6 +3143,10 @@
         "value": "{rem.globalRem}*7",
         "type": "sizing"
       },
+      "12 rem": {
+        "value": "{rem.globalRem}*12",
+        "type": "sizing"
+      },
       "8 rem": {
         "value": "{rem.globalRem}*8",
         "type": "sizing"
@@ -3627,6 +3631,10 @@
         "color": "{SemanticColors.Primary.colorPrimaryHovered}"
       },
       "type": "border"
+    },
+    "12 rem": {
+      "value": "{rem.globalRem}*12",
+      "type": "sizing"
     }
   },
   "Rem/ 14 px (M)": {
