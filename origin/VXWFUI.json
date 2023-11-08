@@ -3037,6 +3037,10 @@
       "083rem": {
         "value": "{rem.globalRem}*0.83",
         "type": "spacing"
+      },
+      "2 rem": {
+        "value": "{rem.globalRem}*2",
+        "type": "spacing"
       }
     },
     "corner radius": {
@@ -3721,6 +3725,10 @@
         "value": "{rem.globalRem}*0.25",
         "type": "spacing"
       },
+      "2 rem": {
+        "value": "{rem.globalRem}*2",
+        "type": "spacing"
+      },
       "03rem": {
         "value": "{rem.globalRem}*0.3",
         "type": "spacing"
@@ -3731,10 +3739,6 @@
       },
       "045rem": {
         "value": "{rem.globalRem}*0.45",
-        "type": "spacing"
-      },
-      "083rem": {
-        "value": "{rem.globalRem}*0.83",
         "type": "spacing"
       }
     },
@@ -4393,12 +4397,12 @@
         "value": "{rem.globalRem}*0.15",
         "type": "spacing"
       },
-      "02rem": {
-        "value": "{rem.globalRem}*0.2",
-        "type": "spacing"
-      },
       "025rem": {
         "value": "{rem.globalRem}*0.25",
+        "type": "spacing"
+      },
+      "2 rem": {
+        "value": "{rem.globalRem}*2",
         "type": "spacing"
       },
       "03rem": {
@@ -5079,6 +5083,10 @@
       },
       "02rem": {
         "value": "{rem.globalRem}*0.2",
+        "type": "spacing"
+      },
+      "2 rem": {
+        "value": "{rem.globalRem}*2",
         "type": "spacing"
       },
       "025rem": {
@@ -5990,12 +5998,10 @@
         "multiple spacing.4sp1": "e80726051370e2391e8d15917accefd418495da8",
         "multiple spacing.08rem": "b4ddcc355b134abb8374519b06226f76b58bb242",
         "multiple spacing.015rem": "bd13300663cb40cf0ab9a56a146a5d89196c11e4",
-        "multiple spacing.02rem": "b5aefaa87eed179b3c0c6307f9f8cb8a28294750",
         "multiple spacing.025rem": "e0b4c0d0fa2331d16a9fed0600af967a61a81413",
         "multiple spacing.03rem": "dcf7d426a1b4ac0e1b3868a50d0081cd34bd887a",
         "multiple spacing.4rem": "ae36f927a63a929da9285efdb2dddbe99a6ed8ae",
         "multiple spacing.045rem": "185cdc15b4fc11caa6a152d2e9c92212a55e6f97",
-        "multiple spacing.083rem": "d4cf197b54f5f01c9d5691f1ae56cd3ec6a3ce83",
         "corner radius.cr0": "ac3ba08263084c2ed2fe5c358209da60681d2e9c",
         "corner radius.cr1": "22060627ddff65c8b4a5035dfe9fe64907a953f9",
         "corner radius.cr2": "806316979018bdce74bd47da424a55ebaaa3fd04",
@@ -6240,12 +6246,10 @@
         "multiple spacing.4sp1": "f94b2e1d7b0321be62277eaf50546e55c49d8170",
         "multiple spacing.08rem": "6d6ac7c48bdef1aeb129aec9af5e73e182eb42b9",
         "multiple spacing.015rem": "1b2d613d5f20aede28dbb97aa9c5bc3a25254df6",
-        "multiple spacing.02rem": "b78a5bf75e49d33d277e978e77aac77671a3b49d",
         "multiple spacing.025rem": "d36983c99ce5f949a1f2ed383b12e872a23388a9",
         "multiple spacing.03rem": "b441320c0a3c209d55a64fd1557889fa2da74391",
         "multiple spacing.4rem": "b3ebc8017788f5bb09461d900a56feb2273fee31",
         "multiple spacing.045rem": "c7b5a0735538cfe1049500428782311ed05478f7",
-        "multiple spacing.083rem": "5618c9c7da22b0b18632c32b124d70b027da59c9",
         "corner radius.cr0": "72c650e4cb3277d1490841e785c1c0080a8cdbfc",
         "corner radius.cr1": "5a7bad9e89943f087e4343dc2a21729579cc10e8",
         "corner radius.cr2": "9785b2f07b25b901d1c8a72bea5e762d1fd29aab",
@@ -6294,7 +6298,8 @@
         "2px": "f565955527a1a1d3acf8511bca51a95110f4668d",
         "sizes.icon.card.2,5 rem - chevron": "04547d6b4826a676a63b8a482a2397b709fbeee1",
         "sizes.key.keyboard.2,4 rem - Charector keys width - XS": "12bc8bf7bd82121874b6ea932660aa95ccb7a1f4",
-        "sizes.other-sizes.0,3rem": "ddb9ffa1253dca76f164aca86c16c26ad8bcf086"
+        "sizes.other-sizes.0,3rem": "ddb9ffa1253dca76f164aca86c16c26ad8bcf086",
+        "2 rem": "b78a5bf75e49d33d277e978e77aac77671a3b49d"
       },
       "group": "Light"
     },
