@@ -3159,6 +3159,10 @@
         "value": "{rem.globalRem}*12",
         "type": "sizing"
       },
+      "19 rem": {
+        "value": "{rem.globalRem}*19",
+        "type": "sizing"
+      },
       "10 rem": {
         "value": "{rem.globalRem}*10",
         "type": "sizing"
@@ -3878,6 +3882,10 @@
         "value": "{rem.globalRem}*12",
         "type": "sizing"
       },
+      "19 rem": {
+        "value": "{rem.globalRem}*19",
+        "type": "sizing"
+      },
       "icon": {
         "header": {
           "3 rem": {
@@ -4562,6 +4570,10 @@
         "value": "{rem.globalRem}*12",
         "type": "sizing"
       },
+      "19 rem": {
+        "value": "{rem.globalRem}*19",
+        "type": "sizing"
+      },
       "icon": {
         "header": {
           "3 rem": {
@@ -5244,6 +5256,10 @@
       },
       "27 rem": {
         "value": "{rem.globalRem}*27",
+        "type": "sizing"
+      },
+      "29 rem": {
+        "value": "{rem.globalRem}*19",
         "type": "sizing"
       },
       "icon": {
