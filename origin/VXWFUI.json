@@ -3179,6 +3179,10 @@
         "value": "{rem.globalRem}*16",
         "type": "sizing"
       },
+      "17 rem": {
+        "value": "{rem.globalRem}*17",
+        "type": "sizing"
+      },
       "20 rem": {
         "value": "{rem.globalRem}*20",
         "type": "sizing"
@@ -3430,6 +3434,10 @@
           "value": "{rem.globalRem}*0.25",
           "type": "sizing"
         },
+        "6,6reM": {
+          "value": "{rem.globalRem}*6.6",
+          "type": "sizing"
+        },
         "02rem": {
           "value": "{rem.globalRem}*0.2",
           "type": "sizing"
@@ -3454,6 +3462,10 @@
           "value": "{rem.globalRem}*0.66",
           "type": "sizing"
         }
+      },
+      "other-sizes8,6rem": {
+        "value": "{rem.globalRem}*8.6",
+        "type": "sizing"
       }
     },
     "BackgroundStyles": {
@@ -3866,6 +3878,10 @@
         "value": "{rem.globalRem}*16",
         "type": "sizing"
       },
+      "17 rem": {
+        "value": "{rem.globalRem}*17",
+        "type": "sizing"
+      },
       "20 rem": {
         "value": "{rem.globalRem}*20",
         "type": "sizing"
@@ -4111,6 +4127,14 @@
         },
         "5,5 rem": {
           "value": "{rem.globalRem}*5.5",
+          "type": "sizing"
+        },
+        "6,6 rem": {
+          "value": "{rem.globalRem}*6.6",
+          "type": "sizing"
+        },
+        "8,6 rem": {
+          "value": "{rem.globalRem}*8.6",
           "type": "sizing"
         },
         "025rem": {
@@ -4558,6 +4582,10 @@
         "value": "{rem.globalRem}*16",
         "type": "sizing"
       },
+      "17 rem": {
+        "value": "{rem.globalRem}*17",
+        "type": "sizing"
+      },
       "20 rem": {
         "value": "{rem.globalRem}*20",
         "type": "sizing"
@@ -4793,6 +4821,10 @@
           "value": "{rem.globalRem}*5.6",
           "type": "sizing"
         },
+        "6,6": {
+          "value": "{rem.globalRem}*6.6",
+          "type": "sizing"
+        },
         "5,5 rem": {
           "value": "{rem.globalRem}*5.5",
           "type": "sizing"
@@ -4821,6 +4853,10 @@
           "value": "{rem.globalRem}*0.75",
           "type": "sizing"
         }
+      },
+      "other-sizes8,6rem": {
+        "value": "{rem.globalRem}*8.6",
+        "type": "sizing"
       },
       "other-sizes 1,5 rem": {
         "value": "{rem.globalRem}*1.5",
@@ -5246,6 +5282,10 @@
         "value": "{rem.globalRem}*14",
         "type": "sizing"
       },
+      "17 rem": {
+        "value": "{rem.globalRem}*17",
+        "type": "sizing"
+      },
       "20 rem": {
         "value": "{rem.globalRem}*20",
         "type": "sizing"
@@ -5519,6 +5559,14 @@
         },
         "0,66 rem": {
           "value": "{rem.globalRem}*0.66",
+          "type": "sizing"
+        },
+        "6,6 rem": {
+          "value": "{rem.globalRem}*6.6",
+          "type": "sizing"
+        },
+        "8,6 rem": {
+          "value": "{rem.globalRem}*8.6",
           "type": "sizing"
         }
       }
