@@ -1635,6 +1635,12 @@
           }
         }
       }
+    },
+    "Color Foreground": {
+      "value": {
+        "fontFamily": "{HP Simplified}"
+      },
+      "type": "typography"
     }
   },
   "Color Theme/light": {
@@ -5854,6 +5860,10 @@
     "L": {
       "value": "150%",
       "type": "lineHeights"
+    },
+    "Dark Theme": {
+      "value": "#FFFF",
+      "type": "color"
     }
   },
   "Font/Forma": {
