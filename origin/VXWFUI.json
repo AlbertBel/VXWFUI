@@ -5782,8 +5782,12 @@
       "value": "{rem.globalRem} * 2.4",
       "type": "fontSizes"
     },
-    "XL5": {
+    "XL5- XS-S": {
       "value": "{rem.globalRem} * 2.4",
+      "type": "fontSizes"
+    },
+    "XL5- M-XL": {
+      "value": "{rem.globalRem} * 2.6",
       "type": "fontSizes"
     },
     "H1": {
@@ -5802,20 +5806,37 @@
       "value": "{rem.globalRem} * 1.5",
       "type": "fontSizes"
     },
-    "H5": {
-      "value": "{rem.globalRem} * 1.5",
-      "type": "fontSizes"
-    },
-    "H6": {
+    "H5 - M-XL": {
       "value": "{rem.globalRem} * 1.4",
       "type": "fontSizes"
     },
-    "H7": {
+    "H5 XS-S": {
+      "value": "{rem.globalRem} * 1.4",
+      "type": "fontSizes",
+      "description": "M-XL"
+    },
+    "H6 - XS-S": {
       "value": "{rem.globalRem} * 1.4",
       "type": "fontSizes"
     },
-    "H8": {
+    "H6 - M-XL": {
+      "value": "{rem.globalRem} * 1.2",
+      "type": "fontSizes"
+    },
+    "H7 - XS-S": {
       "value": "{rem.globalRem} * 1.4",
+      "type": "fontSizes"
+    },
+    "H7 - M-XL": {
+      "value": "{rem.globalRem} * 1.1",
+      "type": "fontSizes"
+    },
+    "H8- XS-S": {
+      "value": "{rem.globalRem} * 1.4",
+      "type": "fontSizes"
+    },
+    "H8- M-XL": {
+      "value": "{rem.globalRem} * 0.9",
       "type": "fontSizes"
     },
     "XS": {
@@ -5828,6 +5849,10 @@
     },
     "M": {
       "value": "130%",
+      "type": "lineHeights"
+    },
+    "L": {
+      "value": "150%",
       "type": "lineHeights"
     }
   },
