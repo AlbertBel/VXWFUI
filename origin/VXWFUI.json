@@ -1635,12 +1635,6 @@
           }
         }
       }
-    },
-    "Color Foreground": {
-      "value": {
-        "fontFamily": "{HP Simplified}"
-      },
-      "type": "typography"
     }
   },
   "Color Theme/light": {
@@ -3470,6 +3464,10 @@
         },
         "0,66rem": {
           "value": "{rem.globalRem}*0.66",
+          "type": "sizing"
+        },
+        "11,2rem": {
+          "value": "{rem.globalRem}*11.2",
           "type": "sizing"
         }
       },
@@ -5860,10 +5858,6 @@
     "L": {
       "value": "150%",
       "type": "lineHeights"
-    },
-    "Dark Theme": {
-      "value": "#FFFF",
-      "type": "color"
     }
   },
   "Font/Forma": {
