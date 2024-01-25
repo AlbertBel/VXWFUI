@@ -3474,6 +3474,10 @@
           "value": "{rem.globalRem}*8.2",
           "type": "sizing"
         },
+        "16,2 rem": {
+          "value": "{rem.globalRem}*16.2",
+          "type": "sizing"
+        },
         "11,2rem": {
           "value": "{rem.globalRem}*11.2",
           "type": "sizing"
@@ -4159,6 +4163,10 @@
         },
         "8,2 rem": {
           "value": "{rem.globalRem}*8.2",
+          "type": "sizing"
+        },
+        "16,2 rem": {
+          "value": "{rem.globalRem}*16.2",
           "type": "sizing"
         },
         "025rem": {
@@ -4859,6 +4867,10 @@
         },
         "8,2 rem": {
           "value": "{rem.globalRem}*8.2",
+          "type": "sizing"
+        },
+        "16,2 rem": {
+          "value": "{rem.globalRem}*16.2",
           "type": "sizing"
         },
         "025rem": {
@@ -5607,6 +5619,10 @@
         },
         "8,6 rem": {
           "value": "{rem.globalRem}*8.6",
+          "type": "sizing"
+        },
+        "16,2 rem": {
+          "value": "{rem.globalRem}*16.2",
           "type": "sizing"
         }
       }
