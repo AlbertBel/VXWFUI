@@ -3966,6 +3966,10 @@
         "value": "{rem.globalRem}*34",
         "type": "sizing"
       },
+      "25 rem": {
+        "value": "{rem.globalRem}*25",
+        "type": "sizing"
+      },
       "11,2 rem": {
         "value": "{rem.globalRem}*11.2",
         "type": "sizing"
@@ -5464,6 +5468,10 @@
       },
       "19 rem": {
         "value": "{rem.globalRem}*19",
+        "type": "sizing"
+      },
+      "35 rem": {
+        "value": "{rem.globalRem}*35",
         "type": "sizing"
       },
       "icon": {
