@@ -3372,14 +3372,22 @@
             "type": "sizing"
           }
         },
-        "row": {
-          "2,5 rem - all": {
+        "status box": {
+          "2,5 rem - status & extra": {
             "value": "{rem.globalRem}*2.5",
+            "type": "sizing"
+          },
+          "5,57 rem - status & extra": {
+            "value": "{rem.globalRem}*5.57",
+            "type": "sizing"
+          },
+          "8,72 rem - status & extra": {
+            "value": "{rem.globalRem}*8.72",
             "type": "sizing"
           }
         },
-        "status box": {
-          "2,5 rem - status & extra": {
+        "row": {
+          "2,5 rem - all": {
             "value": "{rem.globalRem}*2.5",
             "type": "sizing"
           }
