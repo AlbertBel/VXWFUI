@@ -3123,6 +3123,10 @@
         "value": "{rem.globalRem}",
         "type": "sizing"
       },
+      "1 rem-copy": {
+        "value": "{rem.globalRem}",
+        "type": "sizing"
+      },
       "2 rem": {
         "value": "{rem.globalRem}*2",
         "type": "sizing"
