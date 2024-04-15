@@ -3119,6 +3119,10 @@
         "value": "{rem.globalRem}*0.4",
         "type": "sizing"
       },
+      "0,7 rem": {
+        "value": "{rem.globalRem}*0.7",
+        "type": "sizing"
+      },
       "1 rem": {
         "value": "{rem.globalRem}",
         "type": "sizing"
@@ -3129,6 +3133,10 @@
       },
       "2 rem": {
         "value": "{rem.globalRem}*2",
+        "type": "sizing"
+      },
+      "2,5 rem": {
+        "value": "{rem.globalRem}*2.5",
         "type": "sizing"
       },
       "3 rem": {
@@ -3153,6 +3161,10 @@
       },
       "8 rem": {
         "value": "{rem.globalRem}*8",
+        "type": "sizing"
+      },
+      "8,5 rem": {
+        "value": "{rem.globalRem}*8.5",
         "type": "sizing"
       },
       "9 rem": {
@@ -3231,10 +3243,22 @@
         "value": "{rem.globalRem}*23",
         "type": "sizing"
       },
+      "0,182 rem": {
+        "value": "{rem.globalRem}*0.182",
+        "type": "sizing"
+      },
+      "0,364 rem": {
+        "value": "{rem.globalRem}*0.364",
+        "type": "sizing"
+      },
       "icon": {
         "header": {
           "3 rem": {
             "value": "{rem.globalRem}*3",
+            "type": "sizing"
+          },
+          "3 rem-copy": {
+            "value": "{rem.globalRem}*3,75",
             "type": "sizing"
           }
         },
@@ -3525,6 +3549,10 @@
       },
       "other-sizes8,6rem": {
         "value": "{rem.globalRem}*8.6",
+        "type": "sizing"
+      },
+      "other-sizes 0,364": {
+        "value": "{rem.globalRem}*0.364",
         "type": "sizing"
       }
     },
@@ -3894,8 +3922,20 @@
         "value": "{rem.globalRem}*0.5",
         "type": "sizing"
       },
+      "0,182 rem": {
+        "value": "{rem.globalRem}*0.182",
+        "type": "sizing"
+      },
+      "0,364 rem": {
+        "value": "{rem.globalRem}*0.364",
+        "type": "sizing"
+      },
       "2 rem": {
         "value": "{rem.globalRem}*2",
+        "type": "sizing"
+      },
+      "2,5 rem": {
+        "value": "{rem.globalRem}*2.5",
         "type": "sizing"
       },
       "3 rem": {
@@ -3924,6 +3964,10 @@
       },
       "8 rem": {
         "value": "{rem.globalRem}*8",
+        "type": "sizing"
+      },
+      "8,5 rem": {
+        "value": "{rem.globalRem}*8.5",
         "type": "sizing"
       },
       "9 rem": {
@@ -4271,6 +4315,10 @@
         },
         "0,66 rem": {
           "value": "{rem.globalRem}*0.66",
+          "type": "sizing"
+        },
+        "0,364 rem": {
+          "value": "{rem.globalRem}*0.364",
           "type": "sizing"
         }
       }
@@ -4634,6 +4682,14 @@
         "value": "{rem.globalRem}*0.5",
         "type": "sizing"
       },
+      "0,182 rem": {
+        "value": "{rem.globalRem}*0.182",
+        "type": "sizing"
+      },
+      "0,364": {
+        "value": "{rem.globalRem}*0.364",
+        "type": "sizing"
+      },
       "0,4 rem": {
         "value": "{rem.globalRem}*0.4",
         "type": "sizing"
@@ -4646,8 +4702,8 @@
         "value": "{rem.globalRem}*3",
         "type": "sizing"
       },
-      "3,5": {
-        "value": "{rem.globalRem}*3.5",
+      "2,5 rem": {
+        "value": "{rem.globalRem}*2.5",
         "type": "sizing"
       },
       "4 rem": {
@@ -4668,6 +4724,10 @@
       },
       "8 rem": {
         "value": "{rem.globalRem}*8",
+        "type": "sizing"
+      },
+      "8,5 rem": {
+        "value": "{rem.globalRem}*8.5",
         "type": "sizing"
       },
       "9 rem": {
@@ -5012,6 +5072,10 @@
       },
       "other-sizes 0,66": {
         "value": "{rem.globalRem}*0.66",
+        "type": "sizing"
+      },
+      "other-sizes 0,364 rem": {
+        "value": "{rem.globalRem}*0.364",
         "type": "sizing"
       }
     },
@@ -5378,6 +5442,14 @@
         "value": "{rem.globalRem}*0.5",
         "type": "sizing"
       },
+      "0,182 rem": {
+        "value": "{rem.globalRem}*0.182",
+        "type": "sizing"
+      },
+      "0,364": {
+        "value": "{rem.globalRem}*0.364",
+        "type": "sizing"
+      },
       "2 rem": {
         "value": "{rem.globalRem}*2",
         "type": "sizing"
@@ -5390,8 +5462,8 @@
         "value": "{rem.globalRem}*4",
         "type": "sizing"
       },
-      "3,5": {
-        "value": "{rem.globalRem}*3.5",
+      "2,5 rem": {
+        "value": "{rem.globalRem}*2.5",
         "type": "sizing"
       },
       "5 rem": {
@@ -5408,6 +5480,10 @@
       },
       "8 rem": {
         "value": "{rem.globalRem}*8",
+        "type": "sizing"
+      },
+      "8,5 rem": {
+        "value": "{rem.globalRem}*8.5",
         "type": "sizing"
       },
       "9 rem": {
