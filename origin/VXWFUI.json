@@ -3043,6 +3043,10 @@
         "type": "spacing"
       }
     },
+    "0,5 rem": {
+      "value": "{rem.globalRem}*0.5",
+      "type": "spacing"
+    },
     "corner radius": {
       "cr0": {
         "value": "{rem.globalRem} * 0",
