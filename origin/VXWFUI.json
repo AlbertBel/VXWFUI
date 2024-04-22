@@ -3215,6 +3215,10 @@
         "value": "{rem.globalRem}*41",
         "type": "sizing"
       },
+      "40 rem": {
+        "value": "{rem.globalRem}*40",
+        "type": "sizing"
+      },
       "5,5 rem": {
         "value": "{rem.globalRem}*5.5",
         "type": "sizing"
@@ -3225,6 +3229,10 @@
       },
       "35 rem": {
         "value": "{rem.globalRem}*35",
+        "type": "sizing"
+      },
+      "37 rem": {
+        "value": "{rem.globalRem}*37",
         "type": "sizing"
       },
       "11,2 rem": {
@@ -4030,6 +4038,10 @@
         "value": "{rem.globalRem}*34",
         "type": "sizing"
       },
+      "37 rem": {
+        "value": "{rem.globalRem}*37",
+        "type": "sizing"
+      },
       "11,2 rem": {
         "value": "{rem.globalRem}*11.2",
         "type": "sizing"
@@ -4048,6 +4060,14 @@
       },
       "25 rem": {
         "value": "{rem.globalRem}*25",
+        "type": "sizing"
+      },
+      "40 rem": {
+        "value": "{rem.globalRem}*40",
+        "type": "sizing"
+      },
+      "48 rem": {
+        "value": "{rem.globalRem}*48",
         "type": "sizing"
       },
       "icon": {
@@ -4758,6 +4778,10 @@
         "value": "{rem.globalRem}*11",
         "type": "sizing"
       },
+      "40 rem": {
+        "value": "{rem.globalRem}*40",
+        "type": "sizing"
+      },
       "16 rem": {
         "value": "{rem.globalRem}*16",
         "type": "sizing"
@@ -4786,6 +4810,10 @@
         "value": "{rem.globalRem}*34",
         "type": "sizing"
       },
+      "37 rem": {
+        "value": "{rem.globalRem}*37",
+        "type": "sizing"
+      },
       "5,5 rem": {
         "value": "{rem.globalRem}*5.5",
         "type": "sizing"
@@ -4808,6 +4836,10 @@
       },
       "23 rem": {
         "value": "{rem.globalRem}*23",
+        "type": "sizing"
+      },
+      "48 rem": {
+        "value": "{rem.globalRem}*48",
         "type": "sizing"
       },
       "icon": {
@@ -5576,6 +5608,18 @@
       },
       "35 rem": {
         "value": "{rem.globalRem}*35",
+        "type": "sizing"
+      },
+      "37 rem": {
+        "value": "{rem.globalRem}*37",
+        "type": "sizing"
+      },
+      "40 rem": {
+        "value": "{rem.globalRem}*40",
+        "type": "sizing"
+      },
+      "48 rem": {
+        "value": "{rem.globalRem}*48",
         "type": "sizing"
       },
       "icon": {
