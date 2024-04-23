@@ -3047,12 +3047,20 @@
         "type": "spacing"
       }
     },
+    "3 rem": {
+      "value": "{rem.globalRem}*3",
+      "type": "spacing"
+    },
     "0,5 rem": {
       "value": "{rem.globalRem}*0.5",
       "type": "spacing"
     },
     "0,4 rem": {
       "value": "{rem.globalRem}*0.4",
+      "type": "spacing"
+    },
+    "12,5 rem": {
+      "value": "{rem.globalRem}*12.5",
       "type": "spacing"
     },
     "corner radius": {
@@ -3876,6 +3884,10 @@
       "04rem": {
         "value": "{rem.globalRem}*0.4",
         "type": "spacing"
+      },
+      "3rem": {
+        "value": "{rem.globalRem}*3",
+        "type": "spacing"
       }
     },
     "corner radius": {
@@ -4684,7 +4696,15 @@
       "04rem": {
         "value": "{rem.globalRem}*0.4",
         "type": "spacing"
+      },
+      "1,25": {
+        "value": "{rem.globalRem}*1.25",
+        "type": "spacing"
       }
+    },
+    "3 rem": {
+      "value": "{rem.globalRem}*3",
+      "type": "spacing"
     },
     "corner radius": {
       "cr0": {
@@ -5437,12 +5457,12 @@
       }
     },
     "multiple spacing": {
-      "2sp4": {
-        "value": "{sp4} *2",
+      "3": {
+        "value": "{rem.globalRem}*3",
         "type": "spacing"
       },
-      "5sp4": {
-        "value": "{sp4} *5",
+      "2sp4": {
+        "value": "{sp4} *2",
         "type": "spacing"
       },
       "4sp1": {
@@ -5487,6 +5507,10 @@
       },
       "083rem": {
         "value": "{rem.globalRem}*0.83",
+        "type": "spacing"
+      },
+      "12,5 rem": {
+        "value": "{rem.globalRem}*12.5",
         "type": "spacing"
       }
     },
