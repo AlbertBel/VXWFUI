@@ -3038,6 +3038,10 @@
         "value": "{rem.globalRem}*0.83",
         "type": "spacing"
       },
+      "09rem": {
+        "value": "{rem.globalRem}*0.9",
+        "type": "spacing"
+      },
       "2 rem": {
         "value": "{rem.globalRem}*2",
         "type": "spacing"
@@ -3045,6 +3049,10 @@
     },
     "0,5 rem": {
       "value": "{rem.globalRem}*0.5",
+      "type": "spacing"
+    },
+    "0,4 rem": {
+      "value": "{rem.globalRem}*0.4",
       "type": "spacing"
     },
     "corner radius": {
@@ -3856,6 +3864,18 @@
       "045rem": {
         "value": "{rem.globalRem}*0.45",
         "type": "spacing"
+      },
+      "05rem": {
+        "value": "{rem.globalRem}*0.5",
+        "type": "spacing"
+      },
+      "09rem": {
+        "value": "{rem.globalRem}*0.9",
+        "type": "spacing"
+      },
+      "04rem": {
+        "value": "{rem.globalRem}*0.4",
+        "type": "spacing"
       }
     },
     "corner radius": {
@@ -4345,6 +4365,10 @@
           "value": "{rem.globalRem}*0.3",
           "type": "sizing"
         },
+        "0,9rem": {
+          "value": "{rem.globalRem}*0.9",
+          "type": "sizing"
+        },
         "07rem": {
           "value": "{rem.globalRem}*0.7",
           "type": "sizing"
@@ -4647,6 +4671,18 @@
       },
       "083rem": {
         "value": "{rem.globalRem}*0.83",
+        "type": "spacing"
+      },
+      "09rem": {
+        "value": "{rem.globalRem}*0.9",
+        "type": "spacing"
+      },
+      "05rem": {
+        "value": "{rem.globalRem}*0.5",
+        "type": "spacing"
+      },
+      "04rem": {
+        "value": "{rem.globalRem}*0.4",
         "type": "spacing"
       }
     },
@@ -5346,16 +5382,6 @@
     }
   },
   "Rem/17 px (XL)": {
-    "12": {
-      "5": {
-        "value": "{rem.globalRem}*12.5",
-        "type": "spacing"
-      },
-      "5rem": {
-        "value": "{rem.globalRem}*12.5",
-        "type": "spacing"
-      }
-    },
     "rem": {
       "globalRem": {
         "value": "17",
@@ -5451,18 +5477,14 @@
         "value": "{rem.globalRem}*0.45",
         "type": "spacing"
       },
+      "09rem": {
+        "value": "{rem.globalRem}*0.9",
+        "type": "spacing"
+      },
       "083rem": {
         "value": "{rem.globalRem}*0.83",
         "type": "spacing"
       }
-    },
-    "3 rem": {
-      "value": "{rem.globalRem}*3",
-      "type": "spacing"
-    },
-    "12,5": {
-      "value": "{rem.globalRem}*12.5",
-      "type": "spacing"
     },
     "corner radius": {
       "cr0": {
@@ -5927,12 +5949,20 @@
           "value": "{rem.globalRem}*0.4",
           "type": "sizing"
         },
+        "05rem": {
+          "value": "{rem.globalRem}*0.5",
+          "type": "sizing"
+        },
         "03rem": {
           "value": "{rem.globalRem}*0.3",
           "type": "sizing"
         },
         "07rem": {
           "value": "{rem.globalRem}*0.7",
+          "type": "sizing"
+        },
+        "09rem": {
+          "value": "{rem.globalRem}*0.9",
           "type": "sizing"
         },
         "075rem": {
