@@ -3865,6 +3865,10 @@
         "value": "{rem.globalRem}*2",
         "type": "spacing"
       },
+      "2,5 rem": {
+        "value": "{rem.globalRem}*2.5",
+        "type": "spacing"
+      },
       "03rem": {
         "value": "{rem.globalRem}*0.3",
         "type": "spacing"
@@ -4671,6 +4675,10 @@
       },
       "2 rem": {
         "value": "{rem.globalRem}*2",
+        "type": "spacing"
+      },
+      "2,5 rem": {
+        "value": "{rem.globalRem}*2.5",
         "type": "spacing"
       },
       "03rem": {
@@ -5491,6 +5499,10 @@
       },
       "2 rem": {
         "value": "{rem.globalRem}*2",
+        "type": "spacing"
+      },
+      "2,5 rem": {
+        "value": "{rem.globalRem}*2.5",
         "type": "spacing"
       },
       "025rem": {
