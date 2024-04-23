@@ -5441,6 +5441,10 @@
         "value": "{sp4} *2",
         "type": "spacing"
       },
+      "5sp4": {
+        "value": "{sp4} *5",
+        "type": "spacing"
+      },
       "4sp1": {
         "value": "{sp1}*4",
         "type": "spacing"
