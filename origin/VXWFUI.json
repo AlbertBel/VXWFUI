@@ -3251,6 +3251,10 @@
         "value": "{rem.globalRem}*34",
         "type": "sizing"
       },
+      "26 rem": {
+        "value": "{rem.globalRem}*26",
+        "type": "sizing"
+      },
       "35 rem": {
         "value": "{rem.globalRem}*35",
         "type": "sizing"
