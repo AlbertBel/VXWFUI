@@ -3139,6 +3139,12 @@
       }
     },
     "sizes": {
+      "6": {
+        "8 rem": {
+          "value": "{rem.globalRem}*6.8",
+          "type": "sizing"
+        }
+      },
       "45": {
         "value": "{rem.globalRem}*45",
         "type": "sizing"
@@ -3602,6 +3608,14 @@
       "other-sizes 0,364": {
         "value": "{rem.globalRem}*0.364",
         "type": "sizing"
+      },
+      "45 rem": {
+        "value": "{rem.globalRem}*45",
+        "type": "sizing"
+      },
+      " 6,8 rem": {
+        "value": "{rem.globalRem}*6,8",
+        "type": "sizing"
       }
     },
     "BackgroundStyles": {
@@ -3986,6 +4000,12 @@
       }
     },
     "sizes": {
+      "6": {
+        "8 rem": {
+          "value": "{rem.globalRem}*6.8",
+          "type": "sizing"
+        }
+      },
       "1 rem": {
         "value": "{rem.globalRem}",
         "type": "sizing"
@@ -4033,6 +4053,20 @@
       "3,5": {
         "value": "{rem.globalRem}*3.5",
         "type": "sizing"
+      },
+      "6,8 rem": {
+        "value": "{rem.globalRem}*6.8",
+        "type": "sizing"
+      },
+      " 6": {
+        "8 rem copy": {
+          "value": "{rem.globalRem}*6.8",
+          "type": "sizing"
+        },
+        "8 rem": {
+          "value": "{rem.globalRem}*6.8",
+          "type": "sizing"
+        }
       },
       "5 rem": {
         "value": "{rem.globalRem}*5",
@@ -4148,6 +4182,10 @@
       },
       "48 rem": {
         "value": "{rem.globalRem}*48",
+        "type": "sizing"
+      },
+      "45 rem": {
+        "value": "{rem.globalRem}*45",
         "type": "sizing"
       },
       "icon": {
@@ -4814,6 +4852,12 @@
       }
     },
     "sizes": {
+      "6": {
+        "8 rem": {
+          "value": "{rem.globalRem}*6.8",
+          "type": "sizing"
+        }
+      },
       "1 rem": {
         "value": "{rem.globalRem}",
         "type": "sizing"
@@ -5253,6 +5297,10 @@
       "other-sizes 0,364 rem": {
         "value": "{rem.globalRem}*0.364",
         "type": "sizing"
+      },
+      " 6,8 rem": {
+        "value": "{rem.globalRem}*6,8",
+        "type": "sizing"
       }
     },
     "background styles": {
@@ -5638,6 +5686,12 @@
       }
     },
     "sizes": {
+      "6": {
+        "8 rem": {
+          "value": "{rem.globalRem}*6.8",
+          "type": "sizing"
+        }
+      },
       "1 rem": {
         "value": "{rem.globalRem}",
         "type": "sizing"
@@ -6081,6 +6135,14 @@
           "value": "{rem.globalRem}*16.2",
           "type": "sizing"
         }
+      },
+      "45 rem": {
+        "value": "{rem.globalRem}*45",
+        "type": "sizing"
+      },
+      " 6,8 rem": {
+        "value": "{rem.globalRem}*6,8",
+        "type": "sizing"
       }
     },
     "background styles": {
