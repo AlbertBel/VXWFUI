@@ -5541,6 +5541,10 @@
         "value": "{rem.globalRem}*0.45",
         "type": "spacing"
       },
+      "028rem": {
+        "value": "{rem.globalRem}*0.28",
+        "type": "spacing"
+      },
       "09rem": {
         "value": "{rem.globalRem}*0.9",
         "type": "spacing"
