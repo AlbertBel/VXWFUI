@@ -4180,6 +4180,10 @@
         "value": "{rem.globalRem}*40",
         "type": "sizing"
       },
+      "41 rem": {
+        "value": "{rem.globalRem}*41",
+        "type": "sizing"
+      },
       "48 rem": {
         "value": "{rem.globalRem}*48",
         "type": "sizing"
@@ -4940,6 +4944,10 @@
       },
       "40 rem": {
         "value": "{rem.globalRem}*40",
+        "type": "sizing"
+      },
+      "41 rem": {
+        "value": "{rem.globalRem}*41",
         "type": "sizing"
       },
       "44 rem": {
@@ -5838,6 +5846,10 @@
       },
       "40 rem": {
         "value": "{rem.globalRem}*40",
+        "type": "sizing"
+      },
+      "41 rem": {
+        "value": "{rem.globalRem}*41",
         "type": "sizing"
       },
       "44 rem": {
